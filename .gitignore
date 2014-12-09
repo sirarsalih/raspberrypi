@@ -10,7 +10,6 @@ srv
 tmp
 var
 boot
-etc
 home/pi/ssl_certificate
 lost+found
 mnt

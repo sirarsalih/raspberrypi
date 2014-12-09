@@ -16,7 +16,7 @@ var welcomeMsg = "<h1>Sirar's RaspberryPi Node Server</h1>";
 var sslLogo = '<a href=\"https://www.positivessl.com\" style=\"font-family: arial; font-size: 10px; color: #212121; text-decoration: none;\"><img src=\"https://www.positivessl.com/images-new/PositiveSSL_tl_trans2.png\" alt=\"SSL Certificate\" title=\"SSL Certificate\" border=\"0\" /></a><br>';
 
 app.get('/', function(request, response){
-    response.send(welcomeMsg+backupMsg+sslLogo);
+    response.send(welcomeMsg+sslLogo);
 });
 
 app.get('/fly', function(request, response){
@@ -35,7 +35,7 @@ app.get('/fly', function(request, response){
     });
     var coordinates = request.query.c;
     var mission  = arDroneAutonomy.createMission();
-    responseText = welcomeMsg+backupMsg+sslLogo+"Preparing drone flying mission...<br>";
+    responseText = "Preparing drone flying mission...<br>";
     console.log('Preparing drone flying mission...');
     //mission.takeoff()
     //.go({x:0, y:0, z:1.5})
