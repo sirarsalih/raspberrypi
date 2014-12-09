@@ -1,0 +1,3 @@
+<device DEVNO="0xb301" TIME="1400256576.274903" SEC_TYPE="msdos" LABEL="boot" UUID="993B-8922" TYPE="vfat">/dev/mmcblk0p1</device>
+<device DEVNO="0xb302" TIME="1400256576.277662" UUID="fc254b57-8fff-4f96-9609-ea202d871acf" TYPE="ext4">/dev/mmcblk0p2</device>
+<device DEVNO="0x0801" TIME="1400256576.357953" LABEL="My Passport" UUID="B4D48115D480DB4E" TYPE="ntfs">/dev/sda1</device>
