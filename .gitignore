@@ -19,3 +19,4 @@ run
 selinux
 sys
 usr
+sed*
