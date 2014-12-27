@@ -63,10 +63,10 @@ app.get('/fly', function(request, response){
     });
 });
 
-app.get('/getpos', function(request, response){
+app.get('/interstellar', function(request, response){
 	var binaryLatitude = floatToBinary(59.902598);
 	var binaryLongitude = floatToBinary(10.822016);
-	response.send("Latitude: "+binaryLatitude+"<br>"+"Longitude: "+binaryLongitude);
+	response.send(binaryLatitude+"<br>"+binaryLongitude);
 });
 
 function floatToBinary(float) {
@@ -74,6 +74,38 @@ function floatToBinary(float) {
     var binary = hexToBinary(hex);
     var float = hexToFloat(hex); //Control, float = float?
     return binary;
+}
+
+app.get('/toBinary', function(request, response){
+    var value = request.query.val;
+    var hex;
+    var binary;
+    if(value == undefined) {
+        response.send("Undefined input.");
+    } else if(isInt(value)) {
+        hex = intToHex(value);
+        binary = hexToBinary(hex);
+        response.send(binary);
+    } else if(isFloat(value)) {
+        hex = floatToHexIEEE754_32Bit(value);
+        binary = hexToBinary(hex);
+        response.send(binary);
+    } else if(isHex(value)){
+        binary = hexToBinary(value);
+        response.send(binary);
+    }
+});
+
+function isInt(val) {
+    return !isNaN(val) && val.toString().indexOf('.') == -1;
+}
+
+function isFloat(val) {
+    return !isNaN(val) && val.toString().indexOf('.') != -1;
+}
+
+function isHex(val) {
+    return val.length && !isNaN(parseInt(val,16));
 }
 
 function floatToHexIEEE754_32Bit(no) {
@@ -152,8 +184,12 @@ function floatToHexIEEE754_32Bit(no) {
 	return text;   
 }
 
+function intToHex(no) {
+    return Number(no).toString(16);
+}
+
 function hexToBinary(hex){
-    return parseInt(hex,16).toString(2);
+    return parseInt("0x" + hex,16).toString(2);
 }
 
 function hexToFloat(hex) {
