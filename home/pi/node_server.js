@@ -83,8 +83,7 @@ app.get('/toBinary', function(request, response){
     if(value == undefined) {
         response.send("Undefined input.");
     } else if(isInt(value)) {
-        hex = intToHex(value);
-        binary = hexToBinary(hex);
+        binary = intToBinary(value);
         response.send(binary);
     } else if(isFloat(value)) {
         hex = floatToHexIEEE754_32Bit(value);
@@ -106,6 +105,10 @@ function isFloat(val) {
 
 function isHex(val) {
     return val.length && !isNaN(parseInt(val,16));
+}
+
+function intToBinary(no) {
+    return Number(no).toString(2);
 }
 
 function floatToHexIEEE754_32Bit(no) {
@@ -182,10 +185,6 @@ function floatToHexIEEE754_32Bit(no) {
 	}
 	text += tmp;    
 	return text;   
-}
-
-function intToHex(no) {
-    return Number(no).toString(16);
 }
 
 function hexToBinary(hex){
