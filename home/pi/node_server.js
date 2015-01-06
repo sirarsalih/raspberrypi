@@ -111,7 +111,7 @@ function intToBinary(no) {
     return Number(no).toString(2);
 }
 
-//Credits of this functions go to StackOverflow.com
+//Credits of this function go to StackOverflow.com
 function floatToHexIEEE754_32Bit(no) {
 	var text = '' + no, noa = [0], tmp, expBit, i, j, k, l, obj = {};
 	text = text.toLowerCase();
