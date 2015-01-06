@@ -111,6 +111,7 @@ function intToBinary(no) {
     return Number(no).toString(2);
 }
 
+//Credits of this functions go to StackOverflow.com
 function floatToHexIEEE754_32Bit(no) {
 	var text = '' + no, noa = [0], tmp, expBit, i, j, k, l, obj = {};
 	text = text.toLowerCase();
@@ -191,6 +192,7 @@ function hexToBinary(hex){
     return parseInt("0x" + hex,16).toString(2);
 }
 
+//Credits of this function go to StackOverflow.com
 function hexToFloat(hex) {
     var str = "0x"+hex;
     var float = 0, sign, order, mantiss,exp,
