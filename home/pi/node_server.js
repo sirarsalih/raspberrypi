@@ -1,4 +1,4 @@
-               var backupMsg = "<h3 style=\"color:green;\">Last server backup successfully completed on "+new Date().toLocaleString()+"</h3>";
+var backupMsg = "<h3 style=\"color:green;\">Last server backup successfully completed on "+new Date().toLocaleString()+"</h3>";
 var fs = require('fs');
 var https = require('https');
 var privateKey = fs.readFileSync('/home/pi/ssl_certificate/myserver.key', 'utf8');
