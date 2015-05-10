@@ -2,7 +2,7 @@
 
 My RaspberryPi, which hosts a node server located at <a href="https://raspi.sirars.com/" target="_blank">https://raspi.sirars.com/</a>.
 
-<h2>Locations</h2>
+<h2>Important Locations</h2>
 
 Directory of Pi user:
 
