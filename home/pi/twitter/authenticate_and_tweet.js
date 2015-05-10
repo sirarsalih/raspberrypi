@@ -12,12 +12,12 @@
 var Codebird = require("/home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules/codebird");
 
 var cb = new Codebird();
-cb.setConsumerKey("CONSUMER_KEY", "CONSUMER_SECRET");
-cb.setToken("TOKEN_KEY", "TOKEN_SECRET");
+cb.setConsumerKey("OJd8sRgYd8XLNa6DeODOfqZcM", "G77z1xs7hGH9hd6sqJTJtplQW8xk4fQrrMOVRhFQzyhKeGJZj2");
+cb.setToken("484733763-KnkwXAW4E84XFRn0w4NEoUsKO3iXSFjfQ5Y4QfjY", "J35qoide0fnz7mRd9XamUHIRKzMMV2ccIJ5bYdj4ajEoZ");
 
 cb.__call(
     "statuses_update",
-    {"status": "Wohoo, I'm tweeting!"},
+    {"status": "Sirar's #RasPi bot: Everything is a-ok."},
     function (reply) {
         console.log(reply);
     }

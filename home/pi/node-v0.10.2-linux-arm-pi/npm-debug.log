@@ -1,0 +1,1876 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/pi/node-v0.10.2-linux-arm-pi/bin/node',
+1 verbose cli   '/home/pi/node-v0.10.2-linux-arm-pi/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'request' ]
+2 info using npm@1.2.15
+3 info using node@v0.10.2
+4 verbose read json /home/pi/node-v0.10.2-linux-arm-pi/lib/package.json
+5 verbose read json /home/pi/node-v0.10.2-linux-arm-pi/lib/package.json
+6 verbose cache add [ 'request', null ]
+7 verbose cache add name=undefined spec="request" args=["request",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'request',
+8 verbose parsed url   path: 'request',
+8 verbose parsed url   href: 'request' }
+9 silly lockFile 088e29b0-request request
+10 verbose lock request /root/.npm/088e29b0-request.lock
+11 silly lockFile 088e29b0-request request
+12 silly lockFile 088e29b0-request request
+13 verbose addNamed [ 'request', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile 9d461bcf-request request@
+16 verbose lock request@ /root/.npm/9d461bcf-request.lock
+17 silly addNameRange { name: 'request', range: '', hasData: false }
+18 verbose url raw request
+19 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+20 verbose url resolved https://registry.npmjs.org/request
+21 info trying registry request attempt 1 at 10:47:59
+22 http GET https://registry.npmjs.org/request
+23 http 200 https://registry.npmjs.org/request
+24 silly registry.get cb [ 200,
+24 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     etag: '"20GPM8M7S7Z3YK6UKX5L40TTL"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=60',
+24 silly registry.get     'content-length': '146167',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     date: 'Sun, 10 May 2015 08:47:59 GMT',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '55',
+24 silly registry.get     connection: 'keep-alive',
+24 silly registry.get     'x-served-by': 'cache-fra1220-FRA',
+24 silly registry.get     'x-cache': 'HIT',
+24 silly registry.get     'x-cache-hits': '3',
+24 silly registry.get     'x-timer': 'S1431247679.646007,VS0,VE0',
+24 silly registry.get     vary: 'Accept' } ]
+25 silly addNameRange number 2 { name: 'request', range: '', hasData: true }
+26 silly addNameRange versions [ 'request',
+26 silly addNameRange   [ '0.10.0',
+26 silly addNameRange     '0.8.3',
+26 silly addNameRange     '0.9.0',
+26 silly addNameRange     '0.9.1',
+26 silly addNameRange     '0.9.5',
+26 silly addNameRange     '1.0.0',
+26 silly addNameRange     '1.1.0',
+26 silly addNameRange     '1.1.1',
+26 silly addNameRange     '1.2.0',
+26 silly addNameRange     '1.9.0',
+26 silly addNameRange     '1.9.1',
+26 silly addNameRange     '1.9.2',
+26 silly addNameRange     '1.9.3',
+26 silly addNameRange     '1.9.5',
+26 silly addNameRange     '1.9.7',
+26 silly addNameRange     '1.9.8',
+26 silly addNameRange     '1.9.9',
+26 silly addNameRange     '2.0.0',
+26 silly addNameRange     '2.0.1',
+26 silly addNameRange     '2.0.2',
+26 silly addNameRange     '2.0.3',
+26 silly addNameRange     '2.0.4',
+26 silly addNameRange     '2.0.5',
+26 silly addNameRange     '2.1.0',
+26 silly addNameRange     '2.1.1',
+26 silly addNameRange     '2.2.0',
+26 silly addNameRange     '2.2.5',
+26 silly addNameRange     '2.2.6',
+26 silly addNameRange     '2.2.9',
+26 silly addNameRange     '2.9.0',
+26 silly addNameRange     '2.9.1',
+26 silly addNameRange     '2.9.2',
+26 silly addNameRange     '2.9.3',
+26 silly addNameRange     '2.9.100',
+26 silly addNameRange     '2.9.150',
+26 silly addNameRange     '2.9.151',
+26 silly addNameRange     '2.9.152',
+26 silly addNameRange     '2.9.153',
+26 silly addNameRange     '2.9.200',
+26 silly addNameRange     '2.9.201',
+26 silly addNameRange     '2.9.202',
+26 silly addNameRange     '2.9.203',
+26 silly addNameRange     '2.10.0',
+26 silly addNameRange     '2.11.0',
+26 silly addNameRange     '2.11.1',
+26 silly addNameRange     '2.11.2',
+26 silly addNameRange     '2.11.3',
+26 silly addNameRange     '2.11.4',
+26 silly addNameRange     '2.12.0',
+26 silly addNameRange     '2.14.0',
+26 silly addNameRange     '2.16.0',
+26 silly addNameRange     '2.16.2',
+26 silly addNameRange     '2.16.4',
+26 silly addNameRange     '2.16.6',
+26 silly addNameRange     '2.18.0',
+26 silly addNameRange     '2.19.0',
+26 silly addNameRange     '2.20.0',
+26 silly addNameRange     '2.21.0',
+26 silly addNameRange     '2.22.0',
+26 silly addNameRange     '2.23.0',
+26 silly addNameRange     '2.24.0',
+26 silly addNameRange     '2.25.0',
+26 silly addNameRange     '2.26.0',
+26 silly addNameRange     '2.27.0',
+26 silly addNameRange     '2.28.0',
+26 silly addNameRange     '2.29.0',
+26 silly addNameRange     '2.30.0',
+26 silly addNameRange     '2.31.0',
+26 silly addNameRange     '2.32.0',
+26 silly addNameRange     '2.33.0',
+26 silly addNameRange     '2.34.0',
+26 silly addNameRange     '2.35.0',
+26 silly addNameRange     '2.36.0',
+26 silly addNameRange     '2.37.0',
+26 silly addNameRange     '2.38.0',
+26 silly addNameRange     '2.39.0',
+26 silly addNameRange     '2.40.0',
+26 silly addNameRange     '2.41.0',
+26 silly addNameRange     '2.42.0',
+26 silly addNameRange     '2.43.0',
+26 silly addNameRange     '2.44.0',
+26 silly addNameRange     '2.45.0',
+26 silly addNameRange     '2.46.0',
+26 silly addNameRange     '2.47.0',
+26 silly addNameRange     '2.48.0',
+26 silly addNameRange     '2.49.0',
+26 silly addNameRange     '2.50.0',
+26 silly addNameRange     '2.51.0',
+26 silly addNameRange     '2.52.0',
+26 silly addNameRange     '2.53.0',
+26 silly addNameRange     '2.54.0',
+26 silly addNameRange     '2.55.0' ] ]
+27 verbose addNamed [ 'request', '2.55.0' ]
+28 verbose addNamed [ '2.55.0', '2.55.0' ]
+29 silly lockFile d17afc53-request-2-55-0 request@2.55.0
+30 verbose lock request@2.55.0 /root/.npm/d17afc53-request-2-55-0.lock
+31 silly lockFile 28cfb46b-s-org-request-request-2-55-0-tgz https://registry.npmjs.org/request/-/request-2.55.0.tgz
+32 verbose lock https://registry.npmjs.org/request/-/request-2.55.0.tgz /root/.npm/28cfb46b-s-org-request-request-2-55-0-tgz.lock
+33 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.55.0.tgz',
+33 verbose addRemoteTarball   'd75c1cdf679d76bb100f9bffe1fe551b5c24e93d' ]
+34 info retry fetch attempt 1 at 10:48:00
+35 verbose fetch to= /root/tmp/npm-9279/1431247680216-0.8032261552289128/tmp.tgz
+36 http GET https://registry.npmjs.org/request/-/request-2.55.0.tgz
+37 http 200 https://registry.npmjs.org/request/-/request-2.55.0.tgz
+38 silly shasum updated bytes 51341
+39 info shasum d75c1cdf679d76bb100f9bffe1fe551b5c24e93d
+39 info shasum /root/tmp/npm-9279/1431247680216-0.8032261552289128/tmp.tgz
+40 verbose tar unpack /root/tmp/npm-9279/1431247680216-0.8032261552289128/tmp.tgz
+41 silly lockFile dbf925da-80216-0-8032261552289128-package /root/tmp/npm-9279/1431247680216-0.8032261552289128/package
+42 verbose lock /root/tmp/npm-9279/1431247680216-0.8032261552289128/package /root/.npm/dbf925da-80216-0-8032261552289128-package.lock
+43 silly lockFile 5637762c-80216-0-8032261552289128-tmp-tgz /root/tmp/npm-9279/1431247680216-0.8032261552289128/tmp.tgz
+44 verbose lock /root/tmp/npm-9279/1431247680216-0.8032261552289128/tmp.tgz /root/.npm/5637762c-80216-0-8032261552289128-tmp-tgz.lock
+45 silly gunzTarPerm modes [ '755', '644' ]
+46 silly gunzTarPerm extractEntry package.json
+47 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+48 silly gunzTarPerm extractEntry .npmignore
+49 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+50 silly gunzTarPerm extractEntry README.md
+51 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+52 silly gunzTarPerm extractEntry LICENSE
+53 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+54 silly gunzTarPerm extractEntry index.js
+55 silly gunzTarPerm modified mode [ 'index.js', 509, 493 ]
+56 silly gunzTarPerm extractEntry request.js
+57 silly gunzTarPerm modified mode [ 'request.js', 436, 420 ]
+58 silly gunzTarPerm extractEntry disabled.appveyor.yml
+59 silly gunzTarPerm modified mode [ 'disabled.appveyor.yml', 436, 420 ]
+60 silly gunzTarPerm extractEntry .travis.yml
+61 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+62 silly gunzTarPerm extractEntry examples/README.md
+63 silly gunzTarPerm modified mode [ 'examples/README.md', 436, 420 ]
+64 silly gunzTarPerm extractEntry CHANGELOG.md
+65 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+66 silly gunzTarPerm extractEntry lib/auth.js
+67 silly gunzTarPerm modified mode [ 'lib/auth.js', 436, 420 ]
+68 silly gunzTarPerm extractEntry lib/cookies.js
+69 silly gunzTarPerm modified mode [ 'lib/cookies.js', 436, 420 ]
+70 silly gunzTarPerm extractEntry lib/copy.js
+71 silly gunzTarPerm modified mode [ 'lib/copy.js', 436, 420 ]
+72 silly gunzTarPerm extractEntry lib/getProxyFromURI.js
+73 silly gunzTarPerm modified mode [ 'lib/getProxyFromURI.js', 436, 420 ]
+74 silly gunzTarPerm extractEntry lib/har.js
+75 silly gunzTarPerm modified mode [ 'lib/har.js', 436, 420 ]
+76 silly gunzTarPerm extractEntry lib/helpers.js
+77 silly gunzTarPerm modified mode [ 'lib/helpers.js', 436, 420 ]
+78 silly gunzTarPerm extractEntry lib/multipart.js
+79 silly gunzTarPerm modified mode [ 'lib/multipart.js', 436, 420 ]
+80 silly gunzTarPerm extractEntry lib/oauth.js
+81 silly gunzTarPerm modified mode [ 'lib/oauth.js', 436, 420 ]
+82 silly gunzTarPerm extractEntry lib/redirect.js
+83 silly gunzTarPerm modified mode [ 'lib/redirect.js', 436, 420 ]
+84 silly gunzTarPerm extractEntry CONTRIBUTING.md
+85 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 436, 420 ]
+86 silly gunzTarPerm extractEntry .eslintrc
+87 silly gunzTarPerm modified mode [ '.eslintrc', 436, 420 ]
+88 silly gunzTarPerm extractEntry release.sh
+89 silly gunzTarPerm modified mode [ 'release.sh', 509, 493 ]
+90 verbose read json /root/tmp/npm-9279/1431247680216-0.8032261552289128/package/package.json
+91 silly lockFile dbf925da-80216-0-8032261552289128-package /root/tmp/npm-9279/1431247680216-0.8032261552289128/package
+92 silly lockFile dbf925da-80216-0-8032261552289128-package /root/tmp/npm-9279/1431247680216-0.8032261552289128/package
+93 silly lockFile 5637762c-80216-0-8032261552289128-tmp-tgz /root/tmp/npm-9279/1431247680216-0.8032261552289128/tmp.tgz
+94 silly lockFile 5637762c-80216-0-8032261552289128-tmp-tgz /root/tmp/npm-9279/1431247680216-0.8032261552289128/tmp.tgz
+95 verbose from cache /root/tmp/npm-9279/1431247680216-0.8032261552289128/package/package.json
+96 verbose tar pack [ '/root/.npm/request/2.55.0/package.tgz',
+96 verbose tar pack   '/root/tmp/npm-9279/1431247680216-0.8032261552289128/package' ]
+97 verbose tarball /root/.npm/request/2.55.0/package.tgz
+98 verbose folder /root/tmp/npm-9279/1431247680216-0.8032261552289128/package
+99 silly lockFile dbf925da-80216-0-8032261552289128-package /root/tmp/npm-9279/1431247680216-0.8032261552289128/package
+100 verbose lock /root/tmp/npm-9279/1431247680216-0.8032261552289128/package /root/.npm/dbf925da-80216-0-8032261552289128-package.lock
+101 silly lockFile 2ac4c2e5-t-npm-request-2-55-0-package-tgz /root/.npm/request/2.55.0/package.tgz
+102 verbose lock /root/.npm/request/2.55.0/package.tgz /root/.npm/2ac4c2e5-t-npm-request-2-55-0-package-tgz.lock
+103 silly lockFile dbf925da-80216-0-8032261552289128-package /root/tmp/npm-9279/1431247680216-0.8032261552289128/package
+104 silly lockFile dbf925da-80216-0-8032261552289128-package /root/tmp/npm-9279/1431247680216-0.8032261552289128/package
+105 silly lockFile 2ac4c2e5-t-npm-request-2-55-0-package-tgz /root/.npm/request/2.55.0/package.tgz
+106 silly lockFile 2ac4c2e5-t-npm-request-2-55-0-package-tgz /root/.npm/request/2.55.0/package.tgz
+107 silly lockFile 829c9ea2-root-npm-request-2-55-0-package /root/.npm/request/2.55.0/package
+108 verbose lock /root/.npm/request/2.55.0/package /root/.npm/829c9ea2-root-npm-request-2-55-0-package.lock
+109 silly lockFile 829c9ea2-root-npm-request-2-55-0-package /root/.npm/request/2.55.0/package
+110 silly lockFile 829c9ea2-root-npm-request-2-55-0-package /root/.npm/request/2.55.0/package
+111 verbose tar unpack /root/.npm/request/2.55.0/package.tgz
+112 silly lockFile 829c9ea2-root-npm-request-2-55-0-package /root/.npm/request/2.55.0/package
+113 verbose lock /root/.npm/request/2.55.0/package /root/.npm/829c9ea2-root-npm-request-2-55-0-package.lock
+114 silly lockFile 2ac4c2e5-t-npm-request-2-55-0-package-tgz /root/.npm/request/2.55.0/package.tgz
+115 verbose lock /root/.npm/request/2.55.0/package.tgz /root/.npm/2ac4c2e5-t-npm-request-2-55-0-package-tgz.lock
+116 silly gunzTarPerm modes [ '755', '644' ]
+117 silly gunzTarPerm extractEntry package.json
+118 silly gunzTarPerm extractEntry .npmignore
+119 silly gunzTarPerm extractEntry README.md
+120 silly gunzTarPerm extractEntry LICENSE
+121 silly gunzTarPerm extractEntry request.js
+122 silly gunzTarPerm extractEntry index.js
+123 silly gunzTarPerm extractEntry .travis.yml
+124 silly gunzTarPerm extractEntry CHANGELOG.md
+125 silly gunzTarPerm extractEntry examples/README.md
+126 silly gunzTarPerm extractEntry CONTRIBUTING.md
+127 silly gunzTarPerm extractEntry lib/auth.js
+128 silly gunzTarPerm extractEntry lib/cookies.js
+129 silly gunzTarPerm extractEntry lib/copy.js
+130 silly gunzTarPerm extractEntry lib/getProxyFromURI.js
+131 silly gunzTarPerm extractEntry lib/har.js
+132 silly gunzTarPerm extractEntry lib/helpers.js
+133 silly gunzTarPerm extractEntry lib/multipart.js
+134 silly gunzTarPerm extractEntry lib/oauth.js
+135 silly gunzTarPerm extractEntry lib/redirect.js
+136 silly gunzTarPerm extractEntry .eslintrc
+137 silly gunzTarPerm extractEntry release.sh
+138 silly gunzTarPerm extractEntry disabled.appveyor.yml
+139 verbose read json /root/.npm/request/2.55.0/package/package.json
+140 silly lockFile 829c9ea2-root-npm-request-2-55-0-package /root/.npm/request/2.55.0/package
+141 silly lockFile 829c9ea2-root-npm-request-2-55-0-package /root/.npm/request/2.55.0/package
+142 silly lockFile 2ac4c2e5-t-npm-request-2-55-0-package-tgz /root/.npm/request/2.55.0/package.tgz
+143 silly lockFile 2ac4c2e5-t-npm-request-2-55-0-package-tgz /root/.npm/request/2.55.0/package.tgz
+144 silly shasum updated bytes 51489
+145 info shasum 81abc2ed63a11bf624d92b46ff92e0a7066de4bc
+145 info shasum /root/.npm/request/2.55.0/package.tgz
+146 verbose from cache /root/.npm/request/2.55.0/package/package.json
+147 verbose chmod /root/.npm/request/2.55.0/package.tgz 644
+148 verbose chown /root/.npm/request/2.55.0/package.tgz [ 0, 0 ]
+149 silly lockFile 28cfb46b-s-org-request-request-2-55-0-tgz https://registry.npmjs.org/request/-/request-2.55.0.tgz
+150 silly lockFile 28cfb46b-s-org-request-request-2-55-0-tgz https://registry.npmjs.org/request/-/request-2.55.0.tgz
+151 silly lockFile d17afc53-request-2-55-0 request@2.55.0
+152 silly lockFile d17afc53-request-2-55-0 request@2.55.0
+153 silly lockFile 9d461bcf-request request@
+154 silly lockFile 9d461bcf-request request@
+155 silly resolved [ { name: 'request',
+155 silly resolved     description: 'Simplified HTTP request client.',
+155 silly resolved     tags: [ 'http', 'simple', 'util', 'utility' ],
+155 silly resolved     version: '2.55.0',
+155 silly resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+155 silly resolved     repository: { type: 'git', url: 'https://github.com/request/request.git' },
+155 silly resolved     bugs: { url: 'http://github.com/request/request/issues' },
+155 silly resolved     license: 'Apache-2.0',
+155 silly resolved     engines: { node: '>=0.8.0' },
+155 silly resolved     main: 'index.js',
+155 silly resolved     dependencies:
+155 silly resolved      { bl: '~0.9.0',
+155 silly resolved        caseless: '~0.9.0',
+155 silly resolved        'forever-agent': '~0.6.0',
+155 silly resolved        'form-data': '~0.2.0',
+155 silly resolved        'json-stringify-safe': '~5.0.0',
+155 silly resolved        'mime-types': '~2.0.1',
+155 silly resolved        'node-uuid': '~1.4.0',
+155 silly resolved        qs: '~2.4.0',
+155 silly resolved        'tunnel-agent': '~0.4.0',
+155 silly resolved        'tough-cookie': '>=0.12.0',
+155 silly resolved        'http-signature': '~0.10.0',
+155 silly resolved        'oauth-sign': '~0.6.0',
+155 silly resolved        hawk: '~2.3.0',
+155 silly resolved        'aws-sign2': '~0.5.0',
+155 silly resolved        stringstream: '~0.0.4',
+155 silly resolved        'combined-stream': '~0.0.5',
+155 silly resolved        isstream: '~0.1.1',
+155 silly resolved        'har-validator': '^1.4.0' },
+155 silly resolved     scripts:
+155 silly resolved      { test: 'npm run lint && node node_modules/.bin/taper tests/test-*.js && npm run test-browser',
+155 silly resolved        'test-browser': 'node tests/browser/start.js',
+155 silly resolved        lint: 'node node_modules/.bin/eslint lib/ *.js tests/ && echo Lint passed.' },
+155 silly resolved     devDependencies:
+155 silly resolved      { browserify: '~5.9.1',
+155 silly resolved        'browserify-istanbul': '~0.1.3',
+155 silly resolved        coveralls: '~2.11.2',
+155 silly resolved        eslint: '0.17.1',
+155 silly resolved        'function-bind': '~1.0.0',
+155 silly resolved        istanbul: '~0.3.2',
+155 silly resolved        karma: '~0.12.21',
+155 silly resolved        'karma-browserify': '~3.0.1',
+155 silly resolved        'karma-cli': '0.0.4',
+155 silly resolved        'karma-coverage': '0.2.6',
+155 silly resolved        'karma-phantomjs-launcher': '~0.1.4',
+155 silly resolved        'karma-tap': '~1.0.1',
+155 silly resolved        rimraf: '~2.2.8',
+155 silly resolved        'server-destroy': '~1.0.0',
+155 silly resolved        tape: '~3.0.0',
+155 silly resolved        taper: '~0.4.0',
+155 silly resolved        bluebird: '~2.9.21' },
+155 silly resolved     readme: '\n# Request - Simplified HTTP client\n\n[![npm package](https://nodei.co/npm/request.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/request/)\n\n[![Build status](https://img.shields.io/travis/request/request.svg?style=flat-square)](https://travis-ci.org/request/request)\n[![Coverage](https://img.shields.io/coveralls/request/request.svg?style=flat-square)](https://coveralls.io/r/request/request)\n[![Gitter](https://img.shields.io/badge/gitter-join_chat-blue.svg?style=flat-square)](https://gitter.im/request/request?utm_source=badge)\n\n\n## Super simple to use\n\nRequest is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default.\n\n```js\nvar request = require(\'request\');\nrequest(\'http://www.google.com\', function (error, response, body) {\n  if (!error && response.statusCode == 200) {\n    console.log(body) // Show the HTML for the Google homepage.\n  }\n})\n```\n\n\n## Table of contents\n\n- [Streaming](#streaming)\n- [Forms](#forms)\n- [HTTP Authentication](#http-authentication)\n- [Custom HTTP Headers](#custom-http-headers)\n- [OAuth Signing](#oauth-signing)\n- [Proxies](#proxies)\n- [Unix Domain Sockets](#unix-domain-sockets)\n- [TLS/SSL Protocol](#tlsssl-protocol)\n- [Support for HAR 1.2](#support-for-har-12)\n- [**All Available Options**](#requestoptions-callback)\n\nRequest also offers [convenience methods](#convenience-methods) like\n`request.defaults` and `request.post`, and there are\nlots of [usage examples](#examples) and several\n[debugging techniques](#debugging).\n\n\n---\n\n\n## Streaming\n\nYou can stream any response to a file stream.\n\n```js\nrequest(\'http://google.com/doodle.png\').pipe(fs.createWriteStream(\'doodle.png\'))\n```\n\nYou can also stream a file to a PUT or POST request. This method will also check the file extension against a mapping of file extensions to content-types (in this case `application/json`) and use the proper `content-type` in the PUT request (if the headers don’t already provide one).\n\n```js\nfs.createReadStream(\'file.json\').pipe(request.put(\'http://mysite.com/obj.json\'))\n```\n\nRequest can also `pipe` to itself. When doing so, `content-type` and `content-length` are preserved in the PUT headers.\n\n```js\nrequest.get(\'http://google.com/img.png\').pipe(request.put(\'http://mysite.com/img.png\'))\n```\n\nRequest emits a "response" event when a response is received. The `response` argument will be an instance of [http.IncomingMessage](http://nodejs.org/api/http.html#http_http_incomingmessage).\n\n```js\nrequest\n  .get(\'http://google.com/img.png\')\n  .on(\'response\', function(response) {\n    console.log(response.statusCode) // 200\n    console.log(response.headers[\'content-type\']) // \'image/png\'\n  })\n  .pipe(request.put(\'http://mysite.com/img.png\'))\n```\n\nTo easily handle errors when streaming requests, listen to the `error` event before piping:\n\n```js\nrequest\n  .get(\'http://mysite.com/doodle.png\')\n  .on(\'error\', function(err) {\n    console.log(err)\n  })\n  .pipe(fs.createWriteStream(\'doodle.png\'))\n```\n\nNow let’s get fancy.\n\n```js\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    if (req.method === \'PUT\') {\n      req.pipe(request.put(\'http://mysite.com/doodle.png\'))\n    } else if (req.method === \'GET\' || req.method === \'HEAD\') {\n      request.get(\'http://mysite.com/doodle.png\').pipe(resp)\n    }\n  }\n})\n```\n\nYou can also `pipe()` from `http.ServerRequest` instances, as well as to `http.ServerResponse` instances. The HTTP method, headers, and entity-body data will be sent. Which means that, if you don\'t really care about security, you can do:\n\n```js\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    var x = request(\'http://mysite.com/doodle.png\')\n    req.pipe(x)\n    x.pipe(resp)\n  }\n})\n```\n\nAnd since `pipe()` returns the destination stream in ≥ Node 0.5.x you can do one line proxying. :)\n\n```js\nreq.pipe(request(\'http://mysite.com/doodle.png\')).pipe(resp)\n```\n\nAlso, none of this new functionality conflicts with requests previous features, it just expands them.\n\n```js\nvar r = request.defaults({\'proxy\':\'http://localproxy.com\'})\n\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    r.get(\'http://google.com/doodle.png\').pipe(resp)\n  }\n})\n```\n\nYou can still use intermediate proxies, the requests will still follow HTTP forwards, etc.\n\n[back to top](#table-of-contents)\n\n\n---\n\n\n## Forms\n\n`request` supports `application/x-www-form-urlencoded` and `multipart/form-data` form uploads. For `multipart/related` refer to the `multipart` API.\n\n\n#### application/x-www-form-urlencoded (URL-Encoded Forms)\n\nURL-encoded forms are simple.\n\n```js\nrequest.post(\'http://service.com/upload\', {form:{key:\'value\'}})\n// or\nrequest.post(\'http://service.com/upload\').form({key:\'value\'})\n// or\nrequest.post({url:\'http://service.com/upload\', form: {key:\'value\'}}, function(err,httpResponse,body){ /* ... */ })\n```\n\n\n#### multipart/form-data (Multipart Form Uploads)\n\nFor `multipart/form-data` we use the [form-data](https://github.com/felixge/node-form-data) library by [@felixge](https://github.com/felixge). For the most cases, you can pass your upload form data via the `formData` option.\n\n\n```js\nvar formData = {\n  // Pass a simple key-value pair\n  my_field: \'my_value\',\n  // Pass data via Buffers\n  my_buffer: new Buffer([1, 2, 3]),\n  // Pass data via Streams\n  my_file: fs.createReadStream(__dirname + \'/unicycle.jpg\'),\n  // Pass multiple values /w an Array\n  attachments: [\n    fs.createReadStream(__dirname + \'/attachment1.jpg\'),\n    fs.createReadStream(__dirname + \'/attachment2.jpg\')\n  ],\n  // Pass optional meta-data with an \'options\' object with style: {value: DATA, options: OPTIONS}\n  // Use case: for some types of streams, you\'ll need to provide "file"-related information manually.\n  // See the `form-data` README for more information about options: https://github.com/felixge/node-form-data\n  custom_file: {\n    value:  fs.createReadStream(\'/dev/urandom\'),\n    options: {\n      filename: \'topsecret.jpg\',\n      contentType: \'image/jpg\'\n    }\n  }\n};\nrequest.post({url:\'http://service.com/upload\', formData: formData}, function optionalCallback(err, httpResponse, body) {\n  if (err) {\n    return console.error(\'upload failed:\', err);\n  }\n  console.log(\'Upload successful!  Server responded with:\', body);\n});\n```\n\nFor advanced cases, you can access the form-data object itself via `r.form()`. This can be modified until the request is fired on the next cycle of the event-loop. (Note that this calling `form()` will clear the currently set form data for that request.)\n\n```js\n// NOTE: Advanced use-case, for normal use see \'formData\' usage above\nvar r = request.post(\'http://service.com/upload\', function optionalCallback(err, httpResponse, body) { // ...\n\nvar form = r.form();\nform.append(\'my_field\', \'my_value\');\nform.append(\'my_buffer\', new Buffer([1, 2, 3]));\nform.append(\'custom_file\', fs.createReadStream(__dirname + \'/unicycle.jpg\'), {filename: \'unicycle.jpg\'});\n```\nSee the [form-data README](https://github.com/felixge/node-form-data) for more information & examples.\n\n\n#### multipart/related\n\nSome variations in different HTTP implementations require a newline/CRLF before, after, or both before and after the boundary of a `multipart/related` request (using the multipart option). This has been observed in the .NET WebAPI version 4.0. You can turn on a boundary preambleCRLF or postamble by passing them as `true` to your request options.\n\n```js\n  request({\n    method: \'PUT\',\n    preambleCRLF: true,\n    postambleCRLF: true,\n    uri: \'http://service.com/upload\',\n    multipart: [\n      {\n        \'content-type\': \'application/json\'\n        body: JSON.stringify({foo: \'bar\', _attachments: {\'message.txt\': {follows: true, length: 18, \'content_type\': \'text/plain\' }}})\n      },\n      { body: \'I am an attachment\' },\n      { body: fs.createReadStream(\'image.png\') }\n    ],\n    // alternatively pass an object containing additional options\n    multipart: {\n      chunked: false,\n      data: [\n        {\n          \'content-type\': \'application/json\',\n          body: JSON.stringify({foo: \'bar\', _attachments: {\'message.txt\': {follows: true, length: 18, \'content_type\': \'text/plain\' }}})\n        },\n        { body: \'I am an attachment\' }\n      ]\n    }\n  },\n  function (error, response, body) {\n    if (error) {\n      return console.error(\'upload failed:\', error);\n    }\n    console.log(\'Upload successful!  Server responded with:\', body);\n  })\n```\n\n[back to top](#table-of-contents)\n\n\n---\n\n\n## HTTP Authentication\n\n```js\nrequest.get(\'http://some.server.com/\').auth(\'username\', \'password\', false);\n// or\nrequest.get(\'http://some.server.com/\', {\n  \'auth\': {\n    \'user\': \'username\',\n    \'pass\': \'password\',\n    \'sendImmediately\': false\n  }\n});\n// or\nrequest.get(\'http://some.server.com/\').auth(null, null, true, \'bearerToken\');\n// or\nrequest.get(\'http://some.server.com/\', {\n  \'auth\': {\n    \'bearer\': \'bearerToken\'\n  }\n});\n```\n\nIf passed as an option, `auth` should be a hash containing values:\n\n- `user` || `username`\n- `pass` || `password`\n- `sendImmediately` (optional)\n- `bearer` (optional)\n\nThe method form takes parameters\n`auth(username, password, sendImmediately, bearer)`.\n\n`sendImmediately` defaults to `true`, which causes a basic or bearer\nauthentication header to be sent.  If `sendImmediately` is `false`, then\n`request` will retry with a proper authentication header after receiving a\n`401` response from the server (which must contain a `WWW-Authenticate` header\nindicating the required authentication method).\n\nNote that you can also specify basic authentication using the URL itself, as\ndetailed in [RFC 1738](http://www.ietf.org/rfc/rfc1738.txt).  Simply pass the\n`user:password` before the host with an `@` sign:\n\n```js\nvar username = \'username\',\n    password = \'password\',\n    url = \'http://\' + username + \':\' + password + \'@some.server.com\';\n\nrequest({url: url}, function (error, response, body) {\n   // Do more stuff with \'body\' here\n});\n```\n\nDigest authentication is supported, but it only works with `sendImmediately`\nset to `false`; otherwise `request` will send basic authentication on the\ninitial request, which will probably cause the request to fail.\n\nBearer authentication is supported, and is activated when the `bearer` value is\navailable. The value may be either a `String` or a `Function` returning a\n`String`. Using a function to supply the bearer token is particularly useful if\nused in conjuction with `defaults` to allow a single function to supply the\nlast known token at the time of sending a request, or to compute one on the fly.\n\n[back to top](#table-of-contents)\n\n\n---\n\n\n## Custom HTTP Headers\n\nHTTP Headers, such as `User-Agent`, can be set in the `options` object.\nIn the example below, we call the github API to find out the number\nof stars and forks for the request repository. This requires a\ncustom `User-Agent` header as well as https.\n\n```js\nvar request = require(\'request\');\n\nvar options = {\n  url: \'https://api.github.com/repos/request/request\',\n  headers: {\n    \'User-Agent\': \'request\'\n  }\n};\n\nfunction callback(error, response, body) {\n  if (!error && response.statusCode == 200) {\n    var info = JSON.parse(body);\n    console.log(info.stargazers_count + " Stars");\n    console.log(info.forks_count + " Forks");\n  }\n}\n\nrequest(options, callback);\n```\n\n[back to top](#table-of-contents)\n\n\n---\n\n\n## OAuth Signing\n\n[OAuth version 1.0](https://tools.ietf.org/html/rfc5849) is supported.  The\ndefault signing algorithm is\n[HMAC-SHA1](https://tools.ietf.org/html/rfc5849#section-3.4.2):\n\n```js\n// OAuth1.0 - 3-legged server side flow (Twitter example)\n// step 1\nvar qs = require(\'querystring\')\n  , oauth =\n    { callback: \'http://mysite.com/callback/\'\n    , consumer_key: CONSUMER_KEY\n    , consumer_secret: CONSUMER_SECRET\n    }\n  , url = \'https://api.twitter.com/oauth/request_token\'\n  ;\nrequest.post({url:url, oauth:oauth}, function (e, r, body) {\n  // Ideally, you would take the body in the response\n  // and construct a URL that a user clicks on (like a sign in button).\n  // The verifier is only available in the response after a user has\n  // verified with twitter that they are authorizing your app.\n\n  // step 2\n  var req_data = qs.parse(body)\n  var uri = \'https://api.twitter.com/oauth/authenticate\'\n    + \'?\' + qs.stringify({oauth_token: req_data.oauth_token})\n  // redirect the user to the authorize uri\n\n  // step 3\n  // after the user is redirected back to your server\n  var auth_data = qs.parse(body)\n    , oauth =\n      { consumer_key: CONSUMER_KEY\n      , consumer_secret: CONSUMER_SECRET\n      , token: auth_data.oauth_token\n      , token_secret: req_data.oauth_token_secret\n      , verifier: auth_data.oauth_verifier\n      }\n    , url = \'https://api.twitter.com/oauth/access_token\'\n    ;\n  request.post({url:url, oauth:oauth}, function (e, r, body) {\n    // ready to make signed requests on behalf of the user\n    var perm_data = qs.parse(body)\n      , oauth =\n        { consumer_key: CONSUMER_KEY\n        , consumer_secret: CONSUMER_SECRET\n        , token: perm_data.oauth_token\n        , token_secret: perm_data.oauth_token_secret\n        }\n      , url = \'https://api.twitter.com/1.1/users/show.json\'\n      , qs =\n        { screen_name: perm_data.screen_name\n        , user_id: perm_data.user_id\n        }\n      ;\n    request.get({url:url, oauth:oauth, json:true}, function (e, r, user) {\n      console.log(user)\n    })\n  })\n})\n```\n\nFor [RSA-SHA1 signing](https://tools.ietf.org/html/rfc5849#section-3.4.3), make\nthe following changes to the OAuth options object:\n* Pass `signature_method : \'RSA-SHA1\'`\n* Instead of `consumer_secret`, specify a `private_key` string in\n  [PEM format](http://how2ssl.com/articles/working_with_pem_files/)\n\nFor [PLAINTEXT signing](http://oauth.net/core/1.0/#anchor22), make\nthe following changes to the OAuth options object:\n* Pass `signature_method : \'PLAINTEXT\'`\n\nTo send OAuth parameters via query params or in a post body as described in The\n[Consumer Request Parameters](http://oauth.net/core/1.0/#consumer_req_param)\nsection of the oauth1 spec:\n* Pass `transport_method : \'query\'` or `transport_method : \'body\'` in the OAuth\n  options object.\n* `transport_method` defaults to `\'header\'`\n\n[back to top](#table-of-contents)\n\n\n---\n\n\n## Proxies\n\nIf you specify a `proxy` option, then the request (and any subsequent\nredirects) will be sent via a connection to the proxy server.\n\nIf your endpoint is an `https` url, and you are using a proxy, then\nrequest will send a `CONNECT` request to the proxy server *first*, and\nthen use the supplied connection to connect to the endpoint.\n\nThat is, first it will make a request like:\n\n```\nHTTP/1.1 CONNECT endpoint-server.com:80\nHost: proxy-server.com\nUser-Agent: whatever user agent you specify\n```\n\nand then the proxy server make a TCP connection to `endpoint-server`\non port `80`, and return a response that looks like:\n\n```\nHTTP/1.1 200 OK\n```\n\nAt this point, the connection is left open, and the client is\ncommunicating directly with the `endpoint-server.com` machine.\n\nSee [the wikipedia page on HTTP Tunneling](http://en.wikipedia.org/wiki/HTTP_tunnel)\nfor more information.\n\nBy default, when proxying `http` traffic, request will simply make a\nstandard proxied `http` request.  This is done by making the `url`\nsection of the initial line of the request a fully qualified url to\nthe endpoint.\n\nFor example, it will make a single request that looks like:\n\n```\nHTTP/1.1 GET http://endpoint-server.com/some-url\nHost: proxy-server.com\nOther-Headers: all go here\n\nrequest body or whatever\n```\n\nBecause a pure "http over http" tunnel offers no additional security\nor other features, it is generally simpler to go with a\nstraightforward HTTP proxy in this case.  However, if you would like\nto force a tunneling proxy, you may set the `tunnel` option to `true`.\n\nYou can also make a standard proxied `http` request by explicitly setting\n`tunnel : false`, but **note that this will allow the proxy to see the traffic\nto/from the destination server**.\n\nIf you are using a tunneling proxy, you may set the\n`proxyHeaderWhiteList` to share certain headers with the proxy.\n\nYou can also set the `proxyHeaderExclusiveList` to share certain\nheaders only with the proxy and not with destination host.\n\nBy default, this set is:\n\n```\naccept\naccept-charset\naccept-encoding\naccept-language\naccept-ranges\ncache-control\ncontent-encoding\ncontent-language\ncontent-length\ncontent-location\ncontent-md5\ncontent-range\ncontent-type\nconnection\ndate\nexpect\nmax-forwards\npragma\nproxy-authorization\nreferer\nte\ntransfer-encoding\nuser-agent\nvia\n```\n\nNote that, when using a tunneling proxy, the `proxy-authorization`\nheader and any headers from custom `proxyHeaderExclusiveList` are\n*never* sent to the endpoint server, but only to the proxy server.\n\n\n### Controlling proxy behaviour using environment variables\n\nThe following environment variables are respected by `request`:\n\n * `HTTP_PROXY` / `http_proxy`\n * `HTTPS_PROXY` / `https_proxy`\n * `NO_PROXY` / `no_proxy`\n\nWhen `HTTP_PROXY` / `http_proxy` are set, they will be used to proxy non-SSL requests that do not have an explicit `proxy` configuration option present. Similarly, `HTTPS_PROXY` / `https_proxy` will be respected for SSL requests that do not have an explicit `proxy` configuration option. It is valid to define a proxy in one of the environment variables, but then override it for a specific request, using the `proxy` configuration option. Furthermore, the `proxy` configuration option can be explicitly set to false / null to opt out of proxying altogether for that request.\n\n`request` is also aware of the `NO_PROXY`/`no_proxy` environment variables. These variables provide a granular way to opt out of proxying, on a per-host basis. It should contain a comma separated list of hosts to opt out of proxying. It is also possible to opt of proxying when a particular destination port is used. Finally, the variable may be set to `*` to opt out of the implicit proxy configuration of the other environment variables.\n\nHere\'s some examples of valid `no_proxy` values:\n\n * `google.com` - don\'t proxy HTTP/HTTPS requests to Google.\n * `google.com:443` - don\'t proxy HTTPS requests to Google, but *do* proxy HTTP requests to Google.\n * `google.com:443, yahoo.com:80` - don\'t proxy HTTPS requests to Google, and don\'t proxy HTTP requests to Yahoo!\n * `*` - ignore `https_proxy`/`http_proxy` environment variables altogether.\n\n[back to top](#table-of-contents)\n\n\n---\n\n\n## UNIX Domain Sockets\n\n`request` supports making requests to [UNIX Domain Sockets](http://en.wikipedia.org/wiki/Unix_domain_socket). To make one, use the following URL scheme:\n\n```js\n/* Pattern */ \'http://unix:SOCKET:PATH\'\n/* Example */ request.get(\'http://unix:/absolute/path/to/unix.socket:/request/path\')\n```\n\nNote: The `SOCKET` path is assumed to be absolute to the root of the host file system.\n\n[back to top](#table-of-contents)\n\n\n---\n\n\n## TLS/SSL Protocol\n\nTLS/SSL Protocol options, such as `cert`, `key` and `passphrase`, can be\nset in the `agentOptions` property of the `options` object.\nIn the example below, we call an API requires client side SSL certificate\n(in PEM format) with passphrase protected private key (in PEM format) and disable the SSLv3 protocol:\n\n```js\nvar fs = require(\'fs\')\n    , path = require(\'path\')\n    , certFile = path.resolve(__dirname, \'ssl/client.crt\')\n    , keyFile = path.resolve(__dirname, \'ssl/client.key\')\n    , request = require(\'request\');\n\nvar options = {\n    url: \'https://api.some-server.com/\',\n    agentOptions: {\n        cert: fs.readFileSync(certFile),\n        key: fs.readFileSync(keyFile),\n        // Or use `pfx` property replacing `cert` and `key` when using private key, certificate and CA certs in PFX or PKCS12 format:\n        // pfx: fs.readFileSync(pfxFilePath),\n        passphrase: \'password\',\n        securityOptions: \'SSL_OP_NO_SSLv3\'\n    }\n};\n\nrequest.get(options);\n```\n\nIt is able to force using SSLv3 only by specifying `secureProtocol`:\n\n```js\nrequest.get({\n    url: \'https://api.some-server.com/\',\n    agentOptions: {\n        secureProtocol: \'SSLv3_method\'\n    }\n});\n```\n\nIt is possible to accept other certificates than those signed by generally allowed Certificate Authorities (CAs).\nThis can be useful, for example,  when using self-signed certificates.\nTo allow a different certificate, you can specify the signing CA by adding the contents of the CA\'s certificate file to the `agentOptions`:\n\n```js\nrequest.get({\n    url: \'https://api.some-server.com/\',\n    agentOptions: {\n        ca: fs.readFileSync(\'ca.cert.pem\')\n    }\n});\n```\n\n[back to top](#table-of-contents)\n\n\n---\n\n## Support for HAR 1.2\n\nThe `options.har` property will override the values: `url`, `method`, `qs`, `headers`, `form`, `formData`, `body`, `json`, as well as construct multipart data and read files from disk when `request.postData.params[].fileName` is present without a matching `value`.\n\na validation step will check if the HAR Request format matches the latest spec (v1.2) and will skip parsing if not matching.\n\n```js\n  var request = require(\'request\')\n  request({\n    // will be ignored\n    method: \'GET\'\n    uri: \'http://www.google.com\',\n\n    // HTTP Archive Request Object\n    har: {\n      url: \'http://www.mockbin.com/har\'\n      method: \'POST\',\n      headers: [\n        {\n          name: \'content-type\',\n          value: \'application/x-www-form-urlencoded\'\n        }\n      ],\n      postData: {\n        mimeType: \'application/x-www-form-urlencoded\',\n        params: [\n          {\n            name: \'foo\',\n            value: \'bar\'\n          },\n          {\n            name: \'hello\',\n            value: \'world\'\n          }\n        ]\n      }\n    }\n  })\n\n  // a POST request will be sent to http://www.mockbin.com\n  // with body an application/x-www-form-urlencoded body:\n  // foo=bar&hello=world\n```\n\n[back to top](#table-of-contents)\n\n\n---\n\n## request(options, callback)\n\nThe first argument can be either a `url` or an `options` object. The only required option is `uri`; all others are optional.\n\n- `uri` || `url` - fully qualified uri or a parsed url object from `url.parse()`\n- `baseUrl` - fully qualified uri string used as the base url. Most useful with `request.defaults`, for example when you want to do many requests to the same domain.  If `baseUrl` is `https://example.com/api/`, then requesting `/end/point?test=true` will fetch `https://example.com/api/end/point?test=true`. When `baseUrl` is given, `uri` must also be a string.\n- `method` - http method (default: `"GET"`)\n- `headers` - http headers (default: `{}`)\n\n---\n\n- `qs` - object containing querystring values to be appended to the `uri`\n- `qsParseOptions` - object containing options to pass to the [qs.parse](https://github.com/hapijs/qs#parsing-objects) method or [querystring.parse](https://nodejs.org/docs/v0.12.0/api/querystring.html#querystring_querystring_parse_str_sep_eq_options) method\n- `qsStringifyOptions` - object containing options to pass to the [qs.stringify](https://github.com/hapijs/qs#stringifying) method or to the [querystring.stringify](https://nodejs.org/docs/v0.12.0/api/querystring.html#querystring_querystring_stringify_obj_sep_eq_options) method. For example, to change the way arrays are converted to query strings pass the `arrayFormat` option with one of `indices|brackets|repeat`\n- `useQuerystring` - If true, use `querystring` to stringify and parse\n  querystrings, otherwise use `qs` (default: `false`).  Set this option to\n  `true` if you need arrays to be serialized as `foo=bar&foo=baz` instead of the\n  default `foo[0]=bar&foo[1]=baz`.\n\n---\n\n- `body` - entity body for PATCH, POST and PUT requests. Must be a `Buffer` or `String`, unless `json` is `true`. If `json` is `true`, then `body` must be a JSON-serializable object.\n- `form` - when passed an object or a querystring, this sets `body` to a querystring representation of value, and adds `Content-type: application/x-www-form-urlencoded` header. When passed no options, a `FormData` instance is returned (and is piped to request). See "Forms" section above.\n- `formData` - Data to pass for a `multipart/form-data` request. See\n  [Forms](#forms) section above.\n- `multipart` - array of objects which contain their own headers and `body`\n  attributes. Sends a `multipart/related` request. See [Forms](#forms) section\n  above.\n  - Alternatively you can pass in an object `{chunked: false, data: []}` where\n    `chunked` is used to specify whether the request is sent in\n    [chunked transfer encoding](https://en.wikipedia.org/wiki/Chunked_transfer_encoding)\n    In non-chunked requests, data items with body streams are not allowed.\n- `preambleCRLF` - append a newline/CRLF before the boundary of your `multipart/form-data` request.\n- `postambleCRLF` - append a newline/CRLF at the end of the boundary of your `multipart/form-data` request.\n- `json` - sets `body` but to JSON representation of value and adds `Content-type: application/json` header.  Additionally, parses the response body as JSON.\n- `jsonReviver` - a [reviver function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) that will be passed to `JSON.parse()` when parsing a JSON response body.\n\n---\n\n- `auth` - A hash containing values `user` || `username`, `pass` || `password`, and `sendImmediately` (optional).  See documentation above.\n- `oauth` - Options for OAuth HMAC-SHA1 signing. See documentation above.\n- `hawk` - Options for [Hawk signing](https://github.com/hueniverse/hawk). The `credentials` key must contain the necessary signing info, [see hawk docs for details](https://github.com/hueniverse/hawk#usage-example).\n- `aws` - `object` containing AWS signing information. Should have the properties `key`, `secret`. Also requires the property `bucket`, unless you’re specifying your `bucket` as part of the path, or the request doesn’t use a bucket (i.e. GET Services)\n- `httpSignature` - Options for the [HTTP Signature Scheme](https://github.com/joyent/node-http-signature/blob/master/http_signing.md) using [Joyent\'s library](https://github.com/joyent/node-http-signature). The `keyId` and `key` properties must be specified. See the docs for other options.\n\n---\n\n- `followRedirect` - follow HTTP 3xx responses as redirects (default: `true`). This property can also be implemented as function which gets `response` object as a single argument and should return `true` if redirects should continue or `false` otherwise.\n- `followAllRedirects` - follow non-GET HTTP 3xx responses as redirects (default: `false`)\n- `maxRedirects` - the maximum number of redirects to follow (default: `10`)\n\n---\n\n- `encoding` - Encoding to be used on `setEncoding` of response data. If `null`, the `body` is returned as a `Buffer`. Anything else **(including the default value of `undefined`)** will be passed as the [encoding](http://nodejs.org/api/buffer.html#buffer_buffer) parameter to `toString()` (meaning this is effectively `utf8` by default).\n- `gzip` - If `true`, add an `Accept-Encoding` header to request compressed content encodings from the server (if not already present) and decode supported content encodings in the response.  **Note:** Automatic decoding of the response content is performed on the body data returned through `request` (both through the `request` stream and passed to the callback function) but is not performed on the `response` stream (available from the `response` event) which is the unmodified `http.IncomingMessage` object which may contain compressed data. See example below.\n- `jar` - If `true` and `tough-cookie` is installed, remember cookies for future use (or define your custom cookie jar; see examples section)\n\n---\n\n- `pool` - An object describing which agents to use for the request. If this option is omitted the request will use the global agent (as long as [your options allow for it](request.js#L747)). Otherwise, request will search the pool for your custom agent. If no custom agent is found, a new agent will be created and added to the pool.\n  - A `maxSockets` property can also be provided on the `pool` object to set the max number of sockets for all agents created (ex: `pool: {maxSockets: Infinity}`).\n  - Note that if you are sending multiple requests in a loop and creating\n    multiple new `pool` objects, `maxSockets` will not work as intended.  To\n    work around this, either use [`request.defaults`](#requestdefaultsoptions)\n    with your pool options or create the pool object with the `maxSockets`\n    property outside of the loop.\n- `timeout` - Integer containing the number of milliseconds to wait for a\n  request to respond before aborting the request.  Note that if the underlying\n  TCP connection cannot be established, the OS-wide TCP connection timeout will\n  overrule the `timeout` option ([the default in Linux is around 20 seconds](http://www.sekuda.com/overriding_the_default_linux_kernel_20_second_tcp_socket_connect_timeout)).\n- `localAddress` - Local interface to bind for network connections.\n- `proxy` - An HTTP proxy to be used. Supports proxy Auth with Basic Auth, identical to support for the `url` parameter (by embedding the auth info in the `uri`)\n- `strictSSL` - If `true`, requires SSL certificates be valid. **Note:** to use your own certificate authority, you need to specify an agent that was created with that CA as an option.\n- `agentOptions` - Object containing user agent options. See documentation above. **Note:** [see tls API doc for TLS/SSL options](http://nodejs.org/api/tls.html#tls_tls_connect_options_callback).\n- `tunnel` - controls the behavior of\n  [HTTP `CONNECT` tunneling](https://en.wikipedia.org/wiki/HTTP_tunnel#HTTP_CONNECT_tunneling)\n  as follows:\n   - `undefined` (default) - `true` if the destination is `https` or a previous\n     request in the redirect chain used a tunneling proxy, `false` otherwise\n   - `true` - always tunnel to the destination by making a `CONNECT` request to\n     the proxy\n   - `false` - request the destination as a `GET` request.\n- `proxyHeaderWhiteList` - A whitelist of headers to send to a\n  tunneling proxy.\n- `proxyHeaderExclusiveList` - A whitelist of headers to send\n  exclusively to a tunneling proxy and not to destination.\n- `removeRefererHeader` - removes the referer header when a redirect happens (default: `false`).\n\n---\n\n- `time` - If `true`, the request-response cycle (including all redirects) is timed at millisecond resolution, and the result provided on the response\'s `elapsedTime` property.\n\n---\n\n- `har` - A [HAR 1.2 Request Object](http://www.softwareishard.com/blog/har-12-spec/#request), will be processed from HAR format into options overwriting matching values *(see the [HAR 1.2 section](#support-for-har-1.2) for details)*\n\nThe callback argument gets 3 arguments:\n\n1. An `error` when applicable (usually from [`http.ClientRequest`](http://nodejs.org/api/http.html#http_class_http_clientrequest) object)\n2. An [`http.IncomingMessage`](http://nodejs.org/api/http.html#http_http_incomingmessage) object\n3. The third is the `response` body (`String` or `Buffer`, or JSON object if the `json` option is supplied)\n\n[back to top](#table-of-contents)\n\n\n---\n\n## Convenience methods\n\nThere are also shorthand methods for different HTTP METHODs and some other conveniences.\n\n\n### request.defaults(options)\n\nThis method **returns a wrapper** around the normal request API that defaults\nto whatever options you pass to it.\n\n**Note:** `request.defaults()` **does not** modify the global request API;\ninstead, it **returns a wrapper** that has your default settings applied to it.\n\n**Note:** You can call `.defaults()` on the wrapper that is returned from\n`request.defaults` to add/override defaults that were previously defaulted.\n\nFor example:\n```js\n//requests using baseRequest() will set the \'x-token\' header\nvar baseRequest = request.defaults({\n  headers: {x-token: \'my-token\'}\n})\n\n//requests using specialRequest() will include the \'x-token\' header set in\n//baseRequest and will also include the \'special\' header\nvar specialRequest = baseRequest.defaults({\n  headers: {special: \'special value\'}\n})\n```\n\n### request.put\n\nSame as `request()`, but defaults to `method: "PUT"`.\n\n```js\nrequest.put(url)\n```\n\n### request.patch\n\nSame as `request()`, but defaults to `method: "PATCH"`.\n\n```js\nrequest.patch(url)\n```\n\n### request.post\n\nSame as `request()`, but defaults to `method: "POST"`.\n\n```js\nrequest.post(url)\n```\n\n### request.head\n\nSame as `request()`, but defaults to `method: "HEAD"`.\n\n```js\nrequest.head(url)\n```\n\n### request.del\n\nSame as `request()`, but defaults to `method: "DELETE"`.\n\n```js\nrequest.del(url)\n```\n\n### request.get\n\nSame as `request()` (for uniformity).\n\n```js\nrequest.get(url)\n```\n### request.cookie\n\nFunction that creates a new cookie.\n\n```js\nrequest.cookie(\'key1=value1\')\n```\n### request.jar()\n\nFunction that creates a new cookie jar.\n\n```js\nrequest.jar()\n```\n\n[back to top](#table-of-contents)\n\n\n---\n\n\n## Debugging\n\nThere are at least three ways to debug the operation of `request`:\n\n1. Launch the node process like `NODE_DEBUG=request node script.js`\n   (`lib,request,otherlib` works too).\n\n2. Set `require(\'request\').debug = true` at any time (this does the same thing\n   as #1).\n\n3. Use the [request-debug module](https://github.com/nylen/request-debug) to\n   view request and response headers and bodies.\n\n[back to top](#table-of-contents)\n\n\n---\n\n\n## Examples:\n\n```js\n  var request = require(\'request\')\n    , rand = Math.floor(Math.random()*100000000).toString()\n    ;\n  request(\n    { method: \'PUT\'\n    , uri: \'http://mikeal.iriscouch.com/testjs/\' + rand\n    , multipart:\n      [ { \'content-type\': \'application/json\'\n        ,  body: JSON.stringify({foo: \'bar\', _attachments: {\'message.txt\': {follows: true, length: 18, \'content_type\': \'text/plain\' }}})\n        }\n      , { body: \'I am an attachment\' }\n      ]\n    }\n  , function (error, response, body) {\n      if(response.statusCode == 201){\n        console.log(\'document saved as: http://mikeal.iriscouch.com/testjs/\'+ rand)\n      } else {\n        console.log(\'error: \'+ response.statusCode)\n        console.log(body)\n      }\n    }\n  )\n```\n\nFor backwards-compatibility, response compression is not supported by default.\nTo accept gzip-compressed responses, set the `gzip` option to `true`.  Note\nthat the body data passed through `request` is automatically decompressed\nwhile the response object is unmodified and will contain compressed data if\nthe server sent a compressed response.\n\n```js\n  var request = require(\'request\')\n  request(\n    { method: \'GET\'\n    , uri: \'http://www.google.com\'\n    , gzip: true\n    }\n  , function (error, response, body) {\n      // body is the decompressed response body\n      console.log(\'server encoded the data as: \' + (response.headers[\'content-encoding\'] || \'identity\'))\n      console.log(\'the decoded data is: \' + body)\n    }\n  ).on(\'data\', function(data) {\n    // decompressed data as it is received\n    console.log(\'decoded chunk: \' + data)\n  })\n  .on(\'response\', function(response) {\n    // unmodified http.IncomingMessage object\n    response.on(\'data\', function(data) {\n      // compressed data as it is received\n      console.log(\'received \' + data.length + \' bytes of compressed data\')\n    })\n  })\n```\n\nCookies are disabled by default (else, they would be used in subsequent requests). To enable cookies, set `jar` to `true` (either in `defaults` or `options`) and install `tough-cookie`.\n\n```js\nvar request = request.defaults({jar: true})\nrequest(\'http://www.google.com\', function () {\n  request(\'http://images.google.com\')\n})\n```\n\nTo use a custom cookie jar (instead of `request`’s global cookie jar), set `jar` to an instance of `request.jar()` (either in `defaults` or `options`)\n\n```js\nvar j = request.jar()\nvar request = request.defaults({jar:j})\nrequest(\'http://www.google.com\', function () {\n  request(\'http://images.google.com\')\n})\n```\n\nOR\n\n```js\nvar j = request.jar();\nvar cookie = request.cookie(\'key1=value1\');\nvar url = \'http://www.google.com\';\nj.setCookie(cookie, url);\nrequest({url: url, jar: j}, function () {\n  request(\'http://images.google.com\')\n})\n```\n\nTo use a custom cookie store (such as a\n[`FileCookieStore`](https://github.com/mitsuru/tough-cookie-filestore)\nwhich supports saving to and restoring from JSON files), pass it as a parameter\nto `request.jar()`:\n\n```js\nvar FileCookieStore = require(\'tough-cookie-filestore\');\n// NOTE - currently the \'cookies.json\' file must already exist!\nvar j = request.jar(new FileCookieStore(\'cookies.json\'));\nrequest = request.defaults({ jar : j })\nrequest(\'http://www.google.com\', function() {\n  request(\'http://images.google.com\')\n})\n```\n\nThe cookie store must be a\n[`tough-cookie`](https://github.com/goinstant/tough-cookie)\nstore and it must support synchronous operations; see the\n[`CookieStore` API docs](https://github.com/goinstant/tough-cookie/#cookiestore-api)\nfor details.\n\nTo inspect your cookie jar after a request:\n\n```js\nvar j = request.jar()\nrequest({url: \'http://www.google.com\', jar: j}, function () {\n  var cookie_string = j.getCookieString(uri); // "key1=value1; key2=value2; ..."\n  var cookies = j.getCookies(uri);\n  // [{key: \'key1\', value: \'value1\', domain: "www.google.com", ...}, ...]\n})\n```\n\n[back to top](#table-of-contents)\n',
+155 silly resolved     readmeFilename: 'README.md',
+155 silly resolved     _id: 'request@2.55.0',
+155 silly resolved     dist: { shasum: '81abc2ed63a11bf624d92b46ff92e0a7066de4bc' },
+155 silly resolved     _from: 'request@',
+155 silly resolved     _resolved: 'https://registry.npmjs.org/request/-/request-2.55.0.tgz' } ]
+156 info install request@2.55.0 into /home/pi/node-v0.10.2-linux-arm-pi/lib
+157 info installOne request@2.55.0
+158 verbose from cache /root/.npm/request/2.55.0/package/package.json
+159 info /home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules/request unbuild
+160 verbose read json /home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules/request/package.json
+161 verbose tar unpack /root/.npm/request/2.55.0/package.tgz
+162 silly lockFile f2e3d243--arm-pi-lib-node-modules-request /home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules/request
+163 verbose lock /home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules/request /root/.npm/f2e3d243--arm-pi-lib-node-modules-request.lock
+164 silly lockFile 2ac4c2e5-t-npm-request-2-55-0-package-tgz /root/.npm/request/2.55.0/package.tgz
+165 verbose lock /root/.npm/request/2.55.0/package.tgz /root/.npm/2ac4c2e5-t-npm-request-2-55-0-package-tgz.lock
+166 silly gunzTarPerm modes [ '755', '644' ]
+167 silly gunzTarPerm extractEntry package.json
+168 silly gunzTarPerm extractEntry .npmignore
+169 silly gunzTarPerm extractEntry README.md
+170 silly gunzTarPerm extractEntry LICENSE
+171 silly gunzTarPerm extractEntry request.js
+172 silly gunzTarPerm extractEntry index.js
+173 silly gunzTarPerm extractEntry .travis.yml
+174 silly gunzTarPerm extractEntry CHANGELOG.md
+175 silly gunzTarPerm extractEntry examples/README.md
+176 silly gunzTarPerm extractEntry CONTRIBUTING.md
+177 silly gunzTarPerm extractEntry lib/auth.js
+178 silly gunzTarPerm extractEntry lib/cookies.js
+179 silly gunzTarPerm extractEntry lib/copy.js
+180 silly gunzTarPerm extractEntry lib/getProxyFromURI.js
+181 silly gunzTarPerm extractEntry lib/har.js
+182 silly gunzTarPerm extractEntry lib/helpers.js
+183 silly gunzTarPerm extractEntry lib/multipart.js
+184 silly gunzTarPerm extractEntry lib/oauth.js
+185 silly gunzTarPerm extractEntry lib/redirect.js
+186 silly gunzTarPerm extractEntry .eslintrc
+187 silly gunzTarPerm extractEntry release.sh
+188 silly gunzTarPerm extractEntry disabled.appveyor.yml
+189 verbose read json /home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules/request/package.json
+190 silly lockFile f2e3d243--arm-pi-lib-node-modules-request /home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules/request
+191 silly lockFile f2e3d243--arm-pi-lib-node-modules-request /home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules/request
+192 silly lockFile 2ac4c2e5-t-npm-request-2-55-0-package-tgz /root/.npm/request/2.55.0/package.tgz
+193 silly lockFile 2ac4c2e5-t-npm-request-2-55-0-package-tgz /root/.npm/request/2.55.0/package.tgz
+194 info preinstall request@2.55.0
+195 verbose from cache /home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules/request/package.json
+196 verbose readDependencies using package.json deps
+197 verbose from cache /home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules/request/package.json
+198 verbose readDependencies using package.json deps
+199 verbose cache add [ 'oauth-sign@~0.6.0', null ]
+200 verbose cache add name=undefined spec="oauth-sign@~0.6.0" args=["oauth-sign@~0.6.0",null]
+201 verbose parsed url { protocol: null,
+201 verbose parsed url   slashes: null,
+201 verbose parsed url   auth: null,
+201 verbose parsed url   host: null,
+201 verbose parsed url   port: null,
+201 verbose parsed url   hostname: null,
+201 verbose parsed url   hash: null,
+201 verbose parsed url   search: null,
+201 verbose parsed url   query: null,
+201 verbose parsed url   pathname: 'oauth-sign@~0.6.0',
+201 verbose parsed url   path: 'oauth-sign@~0.6.0',
+201 verbose parsed url   href: 'oauth-sign@~0.6.0' }
+202 verbose cache add name="oauth-sign" spec="~0.6.0" args=["oauth-sign","~0.6.0"]
+203 verbose parsed url { protocol: null,
+203 verbose parsed url   slashes: null,
+203 verbose parsed url   auth: null,
+203 verbose parsed url   host: null,
+203 verbose parsed url   port: null,
+203 verbose parsed url   hostname: null,
+203 verbose parsed url   hash: null,
+203 verbose parsed url   search: null,
+203 verbose parsed url   query: null,
+203 verbose parsed url   pathname: '~0.6.0',
+203 verbose parsed url   path: '~0.6.0',
+203 verbose parsed url   href: '~0.6.0' }
+204 verbose addNamed [ 'oauth-sign', '~0.6.0' ]
+205 verbose addNamed [ null, '>=0.6.0- <0.7.0-' ]
+206 silly lockFile b79526de-oauth-sign-0-6-0 oauth-sign@~0.6.0
+207 verbose lock oauth-sign@~0.6.0 /root/.npm/b79526de-oauth-sign-0-6-0.lock
+208 verbose cache add [ 'hawk@~2.3.0', null ]
+209 verbose cache add name=undefined spec="hawk@~2.3.0" args=["hawk@~2.3.0",null]
+210 verbose parsed url { protocol: null,
+210 verbose parsed url   slashes: null,
+210 verbose parsed url   auth: null,
+210 verbose parsed url   host: null,
+210 verbose parsed url   port: null,
+210 verbose parsed url   hostname: null,
+210 verbose parsed url   hash: null,
+210 verbose parsed url   search: null,
+210 verbose parsed url   query: null,
+210 verbose parsed url   pathname: 'hawk@~2.3.0',
+210 verbose parsed url   path: 'hawk@~2.3.0',
+210 verbose parsed url   href: 'hawk@~2.3.0' }
+211 verbose cache add name="hawk" spec="~2.3.0" args=["hawk","~2.3.0"]
+212 verbose parsed url { protocol: null,
+212 verbose parsed url   slashes: null,
+212 verbose parsed url   auth: null,
+212 verbose parsed url   host: null,
+212 verbose parsed url   port: null,
+212 verbose parsed url   hostname: null,
+212 verbose parsed url   hash: null,
+212 verbose parsed url   search: null,
+212 verbose parsed url   query: null,
+212 verbose parsed url   pathname: '~2.3.0',
+212 verbose parsed url   path: '~2.3.0',
+212 verbose parsed url   href: '~2.3.0' }
+213 verbose addNamed [ 'hawk', '~2.3.0' ]
+214 verbose addNamed [ null, '>=2.3.0- <2.4.0-' ]
+215 silly lockFile 05419982-hawk-2-3-0 hawk@~2.3.0
+216 verbose lock hawk@~2.3.0 /root/.npm/05419982-hawk-2-3-0.lock
+217 verbose cache add [ 'aws-sign2@~0.5.0', null ]
+218 verbose cache add name=undefined spec="aws-sign2@~0.5.0" args=["aws-sign2@~0.5.0",null]
+219 verbose parsed url { protocol: null,
+219 verbose parsed url   slashes: null,
+219 verbose parsed url   auth: null,
+219 verbose parsed url   host: null,
+219 verbose parsed url   port: null,
+219 verbose parsed url   hostname: null,
+219 verbose parsed url   hash: null,
+219 verbose parsed url   search: null,
+219 verbose parsed url   query: null,
+219 verbose parsed url   pathname: 'aws-sign2@~0.5.0',
+219 verbose parsed url   path: 'aws-sign2@~0.5.0',
+219 verbose parsed url   href: 'aws-sign2@~0.5.0' }
+220 verbose cache add name="aws-sign2" spec="~0.5.0" args=["aws-sign2","~0.5.0"]
+221 verbose parsed url { protocol: null,
+221 verbose parsed url   slashes: null,
+221 verbose parsed url   auth: null,
+221 verbose parsed url   host: null,
+221 verbose parsed url   port: null,
+221 verbose parsed url   hostname: null,
+221 verbose parsed url   hash: null,
+221 verbose parsed url   search: null,
+221 verbose parsed url   query: null,
+221 verbose parsed url   pathname: '~0.5.0',
+221 verbose parsed url   path: '~0.5.0',
+221 verbose parsed url   href: '~0.5.0' }
+222 verbose addNamed [ 'aws-sign2', '~0.5.0' ]
+223 verbose addNamed [ null, '>=0.5.0- <0.6.0-' ]
+224 silly lockFile 82387911-aws-sign2-0-5-0 aws-sign2@~0.5.0
+225 verbose lock aws-sign2@~0.5.0 /root/.npm/82387911-aws-sign2-0-5-0.lock
+226 verbose cache add [ 'stringstream@~0.0.4', null ]
+227 verbose cache add name=undefined spec="stringstream@~0.0.4" args=["stringstream@~0.0.4",null]
+228 verbose parsed url { protocol: null,
+228 verbose parsed url   slashes: null,
+228 verbose parsed url   auth: null,
+228 verbose parsed url   host: null,
+228 verbose parsed url   port: null,
+228 verbose parsed url   hostname: null,
+228 verbose parsed url   hash: null,
+228 verbose parsed url   search: null,
+228 verbose parsed url   query: null,
+228 verbose parsed url   pathname: 'stringstream@~0.0.4',
+228 verbose parsed url   path: 'stringstream@~0.0.4',
+228 verbose parsed url   href: 'stringstream@~0.0.4' }
+229 verbose cache add name="stringstream" spec="~0.0.4" args=["stringstream","~0.0.4"]
+230 verbose parsed url { protocol: null,
+230 verbose parsed url   slashes: null,
+230 verbose parsed url   auth: null,
+230 verbose parsed url   host: null,
+230 verbose parsed url   port: null,
+230 verbose parsed url   hostname: null,
+230 verbose parsed url   hash: null,
+230 verbose parsed url   search: null,
+230 verbose parsed url   query: null,
+230 verbose parsed url   pathname: '~0.0.4',
+230 verbose parsed url   path: '~0.0.4',
+230 verbose parsed url   href: '~0.0.4' }
+231 verbose addNamed [ 'stringstream', '~0.0.4' ]
+232 verbose addNamed [ null, '>=0.0.4- <0.1.0-' ]
+233 silly lockFile 3b47e33b-stringstream-0-0-4 stringstream@~0.0.4
+234 verbose lock stringstream@~0.0.4 /root/.npm/3b47e33b-stringstream-0-0-4.lock
+235 verbose cache add [ 'combined-stream@~0.0.5', null ]
+236 verbose cache add name=undefined spec="combined-stream@~0.0.5" args=["combined-stream@~0.0.5",null]
+237 verbose parsed url { protocol: null,
+237 verbose parsed url   slashes: null,
+237 verbose parsed url   auth: null,
+237 verbose parsed url   host: null,
+237 verbose parsed url   port: null,
+237 verbose parsed url   hostname: null,
+237 verbose parsed url   hash: null,
+237 verbose parsed url   search: null,
+237 verbose parsed url   query: null,
+237 verbose parsed url   pathname: 'combined-stream@~0.0.5',
+237 verbose parsed url   path: 'combined-stream@~0.0.5',
+237 verbose parsed url   href: 'combined-stream@~0.0.5' }
+238 verbose cache add name="combined-stream" spec="~0.0.5" args=["combined-stream","~0.0.5"]
+239 verbose parsed url { protocol: null,
+239 verbose parsed url   slashes: null,
+239 verbose parsed url   auth: null,
+239 verbose parsed url   host: null,
+239 verbose parsed url   port: null,
+239 verbose parsed url   hostname: null,
+239 verbose parsed url   hash: null,
+239 verbose parsed url   search: null,
+239 verbose parsed url   query: null,
+239 verbose parsed url   pathname: '~0.0.5',
+239 verbose parsed url   path: '~0.0.5',
+239 verbose parsed url   href: '~0.0.5' }
+240 verbose addNamed [ 'combined-stream', '~0.0.5' ]
+241 verbose addNamed [ null, '>=0.0.5- <0.1.0-' ]
+242 silly lockFile c9d459d1-combined-stream-0-0-5 combined-stream@~0.0.5
+243 verbose lock combined-stream@~0.0.5 /root/.npm/c9d459d1-combined-stream-0-0-5.lock
+244 verbose cache add [ 'isstream@~0.1.1', null ]
+245 verbose cache add name=undefined spec="isstream@~0.1.1" args=["isstream@~0.1.1",null]
+246 verbose parsed url { protocol: null,
+246 verbose parsed url   slashes: null,
+246 verbose parsed url   auth: null,
+246 verbose parsed url   host: null,
+246 verbose parsed url   port: null,
+246 verbose parsed url   hostname: null,
+246 verbose parsed url   hash: null,
+246 verbose parsed url   search: null,
+246 verbose parsed url   query: null,
+246 verbose parsed url   pathname: 'isstream@~0.1.1',
+246 verbose parsed url   path: 'isstream@~0.1.1',
+246 verbose parsed url   href: 'isstream@~0.1.1' }
+247 verbose cache add name="isstream" spec="~0.1.1" args=["isstream","~0.1.1"]
+248 verbose parsed url { protocol: null,
+248 verbose parsed url   slashes: null,
+248 verbose parsed url   auth: null,
+248 verbose parsed url   host: null,
+248 verbose parsed url   port: null,
+248 verbose parsed url   hostname: null,
+248 verbose parsed url   hash: null,
+248 verbose parsed url   search: null,
+248 verbose parsed url   query: null,
+248 verbose parsed url   pathname: '~0.1.1',
+248 verbose parsed url   path: '~0.1.1',
+248 verbose parsed url   href: '~0.1.1' }
+249 verbose addNamed [ 'isstream', '~0.1.1' ]
+250 verbose addNamed [ null, '>=0.1.1- <0.2.0-' ]
+251 silly lockFile 67d67e56-isstream-0-1-1 isstream@~0.1.1
+252 verbose lock isstream@~0.1.1 /root/.npm/67d67e56-isstream-0-1-1.lock
+253 verbose cache add [ 'har-validator@^1.4.0', null ]
+254 verbose cache add name=undefined spec="har-validator@^1.4.0" args=["har-validator@^1.4.0",null]
+255 verbose parsed url { protocol: null,
+255 verbose parsed url   slashes: null,
+255 verbose parsed url   auth: null,
+255 verbose parsed url   host: null,
+255 verbose parsed url   port: null,
+255 verbose parsed url   hostname: null,
+255 verbose parsed url   hash: null,
+255 verbose parsed url   search: null,
+255 verbose parsed url   query: null,
+255 verbose parsed url   pathname: 'har-validator@^1.4.0',
+255 verbose parsed url   path: 'har-validator@^1.4.0',
+255 verbose parsed url   href: 'har-validator@^1.4.0' }
+256 verbose cache add name="har-validator" spec="^1.4.0" args=["har-validator","^1.4.0"]
+257 verbose parsed url { protocol: null,
+257 verbose parsed url   slashes: null,
+257 verbose parsed url   auth: null,
+257 verbose parsed url   host: null,
+257 verbose parsed url   port: null,
+257 verbose parsed url   hostname: null,
+257 verbose parsed url   hash: null,
+257 verbose parsed url   search: null,
+257 verbose parsed url   query: null,
+257 verbose parsed url   pathname: '^1.4.0',
+257 verbose parsed url   path: '^1.4.0',
+257 verbose parsed url   href: '^1.4.0' }
+258 verbose addNamed [ 'har-validator', '^1.4.0' ]
+259 verbose addNamed [ null, null ]
+260 silly lockFile 81abc81e-har-validator-1-4-0 har-validator@^1.4.0
+261 verbose lock har-validator@^1.4.0 /root/.npm/81abc81e-har-validator-1-4-0.lock
+262 silly addNameRange { name: 'oauth-sign', range: '>=0.6.0- <0.7.0-', hasData: false }
+263 silly addNameRange { name: 'hawk', range: '>=2.3.0- <2.4.0-', hasData: false }
+264 silly addNameRange { name: 'aws-sign2', range: '>=0.5.0- <0.6.0-', hasData: false }
+265 silly addNameRange { name: 'stringstream',
+265 silly addNameRange   range: '>=0.0.4- <0.1.0-',
+265 silly addNameRange   hasData: false }
+266 silly addNameRange { name: 'combined-stream',
+266 silly addNameRange   range: '>=0.0.5- <0.1.0-',
+266 silly addNameRange   hasData: false }
+267 silly addNameRange { name: 'isstream', range: '>=0.1.1- <0.2.0-', hasData: false }
+268 info addNameTag [ 'har-validator', '^1.4.0' ]
+269 verbose cache add [ 'bl@~0.9.0', null ]
+270 verbose cache add name=undefined spec="bl@~0.9.0" args=["bl@~0.9.0",null]
+271 verbose parsed url { protocol: null,
+271 verbose parsed url   slashes: null,
+271 verbose parsed url   auth: null,
+271 verbose parsed url   host: null,
+271 verbose parsed url   port: null,
+271 verbose parsed url   hostname: null,
+271 verbose parsed url   hash: null,
+271 verbose parsed url   search: null,
+271 verbose parsed url   query: null,
+271 verbose parsed url   pathname: 'bl@~0.9.0',
+271 verbose parsed url   path: 'bl@~0.9.0',
+271 verbose parsed url   href: 'bl@~0.9.0' }
+272 verbose cache add name="bl" spec="~0.9.0" args=["bl","~0.9.0"]
+273 verbose parsed url { protocol: null,
+273 verbose parsed url   slashes: null,
+273 verbose parsed url   auth: null,
+273 verbose parsed url   host: null,
+273 verbose parsed url   port: null,
+273 verbose parsed url   hostname: null,
+273 verbose parsed url   hash: null,
+273 verbose parsed url   search: null,
+273 verbose parsed url   query: null,
+273 verbose parsed url   pathname: '~0.9.0',
+273 verbose parsed url   path: '~0.9.0',
+273 verbose parsed url   href: '~0.9.0' }
+274 verbose addNamed [ 'bl', '~0.9.0' ]
+275 verbose addNamed [ null, '>=0.9.0- <0.10.0-' ]
+276 silly lockFile d3ba3adc-bl-0-9-0 bl@~0.9.0
+277 verbose lock bl@~0.9.0 /root/.npm/d3ba3adc-bl-0-9-0.lock
+278 verbose cache add [ 'caseless@~0.9.0', null ]
+279 verbose cache add name=undefined spec="caseless@~0.9.0" args=["caseless@~0.9.0",null]
+280 verbose parsed url { protocol: null,
+280 verbose parsed url   slashes: null,
+280 verbose parsed url   auth: null,
+280 verbose parsed url   host: null,
+280 verbose parsed url   port: null,
+280 verbose parsed url   hostname: null,
+280 verbose parsed url   hash: null,
+280 verbose parsed url   search: null,
+280 verbose parsed url   query: null,
+280 verbose parsed url   pathname: 'caseless@~0.9.0',
+280 verbose parsed url   path: 'caseless@~0.9.0',
+280 verbose parsed url   href: 'caseless@~0.9.0' }
+281 verbose cache add name="caseless" spec="~0.9.0" args=["caseless","~0.9.0"]
+282 verbose parsed url { protocol: null,
+282 verbose parsed url   slashes: null,
+282 verbose parsed url   auth: null,
+282 verbose parsed url   host: null,
+282 verbose parsed url   port: null,
+282 verbose parsed url   hostname: null,
+282 verbose parsed url   hash: null,
+282 verbose parsed url   search: null,
+282 verbose parsed url   query: null,
+282 verbose parsed url   pathname: '~0.9.0',
+282 verbose parsed url   path: '~0.9.0',
+282 verbose parsed url   href: '~0.9.0' }
+283 verbose addNamed [ 'caseless', '~0.9.0' ]
+284 verbose addNamed [ null, '>=0.9.0- <0.10.0-' ]
+285 silly lockFile bfd1d45a-caseless-0-9-0 caseless@~0.9.0
+286 verbose lock caseless@~0.9.0 /root/.npm/bfd1d45a-caseless-0-9-0.lock
+287 verbose cache add [ 'forever-agent@~0.6.0', null ]
+288 verbose cache add name=undefined spec="forever-agent@~0.6.0" args=["forever-agent@~0.6.0",null]
+289 verbose parsed url { protocol: null,
+289 verbose parsed url   slashes: null,
+289 verbose parsed url   auth: null,
+289 verbose parsed url   host: null,
+289 verbose parsed url   port: null,
+289 verbose parsed url   hostname: null,
+289 verbose parsed url   hash: null,
+289 verbose parsed url   search: null,
+289 verbose parsed url   query: null,
+289 verbose parsed url   pathname: 'forever-agent@~0.6.0',
+289 verbose parsed url   path: 'forever-agent@~0.6.0',
+289 verbose parsed url   href: 'forever-agent@~0.6.0' }
+290 verbose cache add name="forever-agent" spec="~0.6.0" args=["forever-agent","~0.6.0"]
+291 verbose parsed url { protocol: null,
+291 verbose parsed url   slashes: null,
+291 verbose parsed url   auth: null,
+291 verbose parsed url   host: null,
+291 verbose parsed url   port: null,
+291 verbose parsed url   hostname: null,
+291 verbose parsed url   hash: null,
+291 verbose parsed url   search: null,
+291 verbose parsed url   query: null,
+291 verbose parsed url   pathname: '~0.6.0',
+291 verbose parsed url   path: '~0.6.0',
+291 verbose parsed url   href: '~0.6.0' }
+292 verbose addNamed [ 'forever-agent', '~0.6.0' ]
+293 verbose addNamed [ null, '>=0.6.0- <0.7.0-' ]
+294 silly lockFile eb9ad217-forever-agent-0-6-0 forever-agent@~0.6.0
+295 verbose lock forever-agent@~0.6.0 /root/.npm/eb9ad217-forever-agent-0-6-0.lock
+296 verbose cache add [ 'form-data@~0.2.0', null ]
+297 verbose cache add name=undefined spec="form-data@~0.2.0" args=["form-data@~0.2.0",null]
+298 verbose parsed url { protocol: null,
+298 verbose parsed url   slashes: null,
+298 verbose parsed url   auth: null,
+298 verbose parsed url   host: null,
+298 verbose parsed url   port: null,
+298 verbose parsed url   hostname: null,
+298 verbose parsed url   hash: null,
+298 verbose parsed url   search: null,
+298 verbose parsed url   query: null,
+298 verbose parsed url   pathname: 'form-data@~0.2.0',
+298 verbose parsed url   path: 'form-data@~0.2.0',
+298 verbose parsed url   href: 'form-data@~0.2.0' }
+299 verbose cache add name="form-data" spec="~0.2.0" args=["form-data","~0.2.0"]
+300 verbose parsed url { protocol: null,
+300 verbose parsed url   slashes: null,
+300 verbose parsed url   auth: null,
+300 verbose parsed url   host: null,
+300 verbose parsed url   port: null,
+300 verbose parsed url   hostname: null,
+300 verbose parsed url   hash: null,
+300 verbose parsed url   search: null,
+300 verbose parsed url   query: null,
+300 verbose parsed url   pathname: '~0.2.0',
+300 verbose parsed url   path: '~0.2.0',
+300 verbose parsed url   href: '~0.2.0' }
+301 verbose addNamed [ 'form-data', '~0.2.0' ]
+302 verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+303 silly lockFile 689cc5af-form-data-0-2-0 form-data@~0.2.0
+304 verbose lock form-data@~0.2.0 /root/.npm/689cc5af-form-data-0-2-0.lock
+305 verbose cache add [ 'json-stringify-safe@~5.0.0', null ]
+306 verbose cache add name=undefined spec="json-stringify-safe@~5.0.0" args=["json-stringify-safe@~5.0.0",null]
+307 verbose parsed url { protocol: null,
+307 verbose parsed url   slashes: null,
+307 verbose parsed url   auth: null,
+307 verbose parsed url   host: null,
+307 verbose parsed url   port: null,
+307 verbose parsed url   hostname: null,
+307 verbose parsed url   hash: null,
+307 verbose parsed url   search: null,
+307 verbose parsed url   query: null,
+307 verbose parsed url   pathname: 'json-stringify-safe@~5.0.0',
+307 verbose parsed url   path: 'json-stringify-safe@~5.0.0',
+307 verbose parsed url   href: 'json-stringify-safe@~5.0.0' }
+308 verbose cache add name="json-stringify-safe" spec="~5.0.0" args=["json-stringify-safe","~5.0.0"]
+309 verbose parsed url { protocol: null,
+309 verbose parsed url   slashes: null,
+309 verbose parsed url   auth: null,
+309 verbose parsed url   host: null,
+309 verbose parsed url   port: null,
+309 verbose parsed url   hostname: null,
+309 verbose parsed url   hash: null,
+309 verbose parsed url   search: null,
+309 verbose parsed url   query: null,
+309 verbose parsed url   pathname: '~5.0.0',
+309 verbose parsed url   path: '~5.0.0',
+309 verbose parsed url   href: '~5.0.0' }
+310 verbose addNamed [ 'json-stringify-safe', '~5.0.0' ]
+311 verbose addNamed [ null, '>=5.0.0- <5.1.0-' ]
+312 silly lockFile 063b1a01-json-stringify-safe-5-0-0 json-stringify-safe@~5.0.0
+313 verbose lock json-stringify-safe@~5.0.0 /root/.npm/063b1a01-json-stringify-safe-5-0-0.lock
+314 verbose cache add [ 'mime-types@~2.0.1', null ]
+315 verbose cache add name=undefined spec="mime-types@~2.0.1" args=["mime-types@~2.0.1",null]
+316 verbose parsed url { protocol: null,
+316 verbose parsed url   slashes: null,
+316 verbose parsed url   auth: null,
+316 verbose parsed url   host: null,
+316 verbose parsed url   port: null,
+316 verbose parsed url   hostname: null,
+316 verbose parsed url   hash: null,
+316 verbose parsed url   search: null,
+316 verbose parsed url   query: null,
+316 verbose parsed url   pathname: 'mime-types@~2.0.1',
+316 verbose parsed url   path: 'mime-types@~2.0.1',
+316 verbose parsed url   href: 'mime-types@~2.0.1' }
+317 verbose cache add name="mime-types" spec="~2.0.1" args=["mime-types","~2.0.1"]
+318 verbose parsed url { protocol: null,
+318 verbose parsed url   slashes: null,
+318 verbose parsed url   auth: null,
+318 verbose parsed url   host: null,
+318 verbose parsed url   port: null,
+318 verbose parsed url   hostname: null,
+318 verbose parsed url   hash: null,
+318 verbose parsed url   search: null,
+318 verbose parsed url   query: null,
+318 verbose parsed url   pathname: '~2.0.1',
+318 verbose parsed url   path: '~2.0.1',
+318 verbose parsed url   href: '~2.0.1' }
+319 verbose addNamed [ 'mime-types', '~2.0.1' ]
+320 verbose addNamed [ null, '>=2.0.1- <2.1.0-' ]
+321 silly lockFile 4c7ffcb0-mime-types-2-0-1 mime-types@~2.0.1
+322 verbose lock mime-types@~2.0.1 /root/.npm/4c7ffcb0-mime-types-2-0-1.lock
+323 verbose cache add [ 'node-uuid@~1.4.0', null ]
+324 verbose cache add name=undefined spec="node-uuid@~1.4.0" args=["node-uuid@~1.4.0",null]
+325 verbose parsed url { protocol: null,
+325 verbose parsed url   slashes: null,
+325 verbose parsed url   auth: null,
+325 verbose parsed url   host: null,
+325 verbose parsed url   port: null,
+325 verbose parsed url   hostname: null,
+325 verbose parsed url   hash: null,
+325 verbose parsed url   search: null,
+325 verbose parsed url   query: null,
+325 verbose parsed url   pathname: 'node-uuid@~1.4.0',
+325 verbose parsed url   path: 'node-uuid@~1.4.0',
+325 verbose parsed url   href: 'node-uuid@~1.4.0' }
+326 verbose cache add name="node-uuid" spec="~1.4.0" args=["node-uuid","~1.4.0"]
+327 verbose parsed url { protocol: null,
+327 verbose parsed url   slashes: null,
+327 verbose parsed url   auth: null,
+327 verbose parsed url   host: null,
+327 verbose parsed url   port: null,
+327 verbose parsed url   hostname: null,
+327 verbose parsed url   hash: null,
+327 verbose parsed url   search: null,
+327 verbose parsed url   query: null,
+327 verbose parsed url   pathname: '~1.4.0',
+327 verbose parsed url   path: '~1.4.0',
+327 verbose parsed url   href: '~1.4.0' }
+328 verbose addNamed [ 'node-uuid', '~1.4.0' ]
+329 verbose addNamed [ null, '>=1.4.0- <1.5.0-' ]
+330 silly lockFile f662725f-node-uuid-1-4-0 node-uuid@~1.4.0
+331 verbose lock node-uuid@~1.4.0 /root/.npm/f662725f-node-uuid-1-4-0.lock
+332 verbose cache add [ 'qs@~2.4.0', null ]
+333 verbose cache add name=undefined spec="qs@~2.4.0" args=["qs@~2.4.0",null]
+334 verbose parsed url { protocol: null,
+334 verbose parsed url   slashes: null,
+334 verbose parsed url   auth: null,
+334 verbose parsed url   host: null,
+334 verbose parsed url   port: null,
+334 verbose parsed url   hostname: null,
+334 verbose parsed url   hash: null,
+334 verbose parsed url   search: null,
+334 verbose parsed url   query: null,
+334 verbose parsed url   pathname: 'qs@~2.4.0',
+334 verbose parsed url   path: 'qs@~2.4.0',
+334 verbose parsed url   href: 'qs@~2.4.0' }
+335 verbose cache add name="qs" spec="~2.4.0" args=["qs","~2.4.0"]
+336 verbose parsed url { protocol: null,
+336 verbose parsed url   slashes: null,
+336 verbose parsed url   auth: null,
+336 verbose parsed url   host: null,
+336 verbose parsed url   port: null,
+336 verbose parsed url   hostname: null,
+336 verbose parsed url   hash: null,
+336 verbose parsed url   search: null,
+336 verbose parsed url   query: null,
+336 verbose parsed url   pathname: '~2.4.0',
+336 verbose parsed url   path: '~2.4.0',
+336 verbose parsed url   href: '~2.4.0' }
+337 verbose addNamed [ 'qs', '~2.4.0' ]
+338 verbose addNamed [ null, '>=2.4.0- <2.5.0-' ]
+339 silly lockFile 8f908b13-qs-2-4-0 qs@~2.4.0
+340 verbose lock qs@~2.4.0 /root/.npm/8f908b13-qs-2-4-0.lock
+341 verbose cache add [ 'tunnel-agent@~0.4.0', null ]
+342 verbose cache add name=undefined spec="tunnel-agent@~0.4.0" args=["tunnel-agent@~0.4.0",null]
+343 verbose parsed url { protocol: null,
+343 verbose parsed url   slashes: null,
+343 verbose parsed url   auth: null,
+343 verbose parsed url   host: null,
+343 verbose parsed url   port: null,
+343 verbose parsed url   hostname: null,
+343 verbose parsed url   hash: null,
+343 verbose parsed url   search: null,
+343 verbose parsed url   query: null,
+343 verbose parsed url   pathname: 'tunnel-agent@~0.4.0',
+343 verbose parsed url   path: 'tunnel-agent@~0.4.0',
+343 verbose parsed url   href: 'tunnel-agent@~0.4.0' }
+344 verbose cache add name="tunnel-agent" spec="~0.4.0" args=["tunnel-agent","~0.4.0"]
+345 verbose parsed url { protocol: null,
+345 verbose parsed url   slashes: null,
+345 verbose parsed url   auth: null,
+345 verbose parsed url   host: null,
+345 verbose parsed url   port: null,
+345 verbose parsed url   hostname: null,
+345 verbose parsed url   hash: null,
+345 verbose parsed url   search: null,
+345 verbose parsed url   query: null,
+345 verbose parsed url   pathname: '~0.4.0',
+345 verbose parsed url   path: '~0.4.0',
+345 verbose parsed url   href: '~0.4.0' }
+346 verbose addNamed [ 'tunnel-agent', '~0.4.0' ]
+347 verbose addNamed [ null, '>=0.4.0- <0.5.0-' ]
+348 silly lockFile 2550750e-tunnel-agent-0-4-0 tunnel-agent@~0.4.0
+349 verbose lock tunnel-agent@~0.4.0 /root/.npm/2550750e-tunnel-agent-0-4-0.lock
+350 verbose cache add [ 'tough-cookie@>=0.12.0', null ]
+351 verbose cache add name=undefined spec="tough-cookie@>=0.12.0" args=["tough-cookie@>=0.12.0",null]
+352 verbose parsed url { protocol: null,
+352 verbose parsed url   slashes: null,
+352 verbose parsed url   auth: null,
+352 verbose parsed url   host: null,
+352 verbose parsed url   port: null,
+352 verbose parsed url   hostname: null,
+352 verbose parsed url   hash: null,
+352 verbose parsed url   search: null,
+352 verbose parsed url   query: null,
+352 verbose parsed url   pathname: 'tough-cookie@%3E=0.12.0',
+352 verbose parsed url   path: 'tough-cookie@%3E=0.12.0',
+352 verbose parsed url   href: 'tough-cookie@%3E=0.12.0' }
+353 verbose cache add name="tough-cookie" spec=">=0.12.0" args=["tough-cookie",">=0.12.0"]
+354 verbose parsed url { protocol: null,
+354 verbose parsed url   slashes: null,
+354 verbose parsed url   auth: null,
+354 verbose parsed url   host: null,
+354 verbose parsed url   port: null,
+354 verbose parsed url   hostname: null,
+354 verbose parsed url   hash: null,
+354 verbose parsed url   search: null,
+354 verbose parsed url   query: null,
+354 verbose parsed url   pathname: '%3E=0.12.0',
+354 verbose parsed url   path: '%3E=0.12.0',
+354 verbose parsed url   href: '%3E=0.12.0' }
+355 verbose addNamed [ 'tough-cookie', '>=0.12.0' ]
+356 verbose addNamed [ null, '>=0.12.0' ]
+357 silly lockFile 66c18ba7-tough-cookie-0-12-0 tough-cookie@>=0.12.0
+358 verbose lock tough-cookie@>=0.12.0 /root/.npm/66c18ba7-tough-cookie-0-12-0.lock
+359 verbose cache add [ 'http-signature@~0.10.0', null ]
+360 verbose cache add name=undefined spec="http-signature@~0.10.0" args=["http-signature@~0.10.0",null]
+361 verbose parsed url { protocol: null,
+361 verbose parsed url   slashes: null,
+361 verbose parsed url   auth: null,
+361 verbose parsed url   host: null,
+361 verbose parsed url   port: null,
+361 verbose parsed url   hostname: null,
+361 verbose parsed url   hash: null,
+361 verbose parsed url   search: null,
+361 verbose parsed url   query: null,
+361 verbose parsed url   pathname: 'http-signature@~0.10.0',
+361 verbose parsed url   path: 'http-signature@~0.10.0',
+361 verbose parsed url   href: 'http-signature@~0.10.0' }
+362 verbose cache add name="http-signature" spec="~0.10.0" args=["http-signature","~0.10.0"]
+363 verbose parsed url { protocol: null,
+363 verbose parsed url   slashes: null,
+363 verbose parsed url   auth: null,
+363 verbose parsed url   host: null,
+363 verbose parsed url   port: null,
+363 verbose parsed url   hostname: null,
+363 verbose parsed url   hash: null,
+363 verbose parsed url   search: null,
+363 verbose parsed url   query: null,
+363 verbose parsed url   pathname: '~0.10.0',
+363 verbose parsed url   path: '~0.10.0',
+363 verbose parsed url   href: '~0.10.0' }
+364 verbose addNamed [ 'http-signature', '~0.10.0' ]
+365 verbose addNamed [ null, '>=0.10.0- <0.11.0-' ]
+366 silly lockFile 8170f292-http-signature-0-10-0 http-signature@~0.10.0
+367 verbose lock http-signature@~0.10.0 /root/.npm/8170f292-http-signature-0-10-0.lock
+368 verbose url raw oauth-sign
+369 verbose url resolving [ 'https://registry.npmjs.org/', './oauth-sign' ]
+370 verbose url resolved https://registry.npmjs.org/oauth-sign
+371 info trying registry request attempt 1 at 10:48:06
+372 http GET https://registry.npmjs.org/oauth-sign
+373 verbose url raw hawk
+374 verbose url resolving [ 'https://registry.npmjs.org/', './hawk' ]
+375 verbose url resolved https://registry.npmjs.org/hawk
+376 info trying registry request attempt 1 at 10:48:06
+377 http GET https://registry.npmjs.org/hawk
+378 verbose url raw aws-sign2
+379 verbose url resolving [ 'https://registry.npmjs.org/', './aws-sign2' ]
+380 verbose url resolved https://registry.npmjs.org/aws-sign2
+381 info trying registry request attempt 1 at 10:48:06
+382 http GET https://registry.npmjs.org/aws-sign2
+383 verbose url raw stringstream
+384 verbose url resolving [ 'https://registry.npmjs.org/', './stringstream' ]
+385 verbose url resolved https://registry.npmjs.org/stringstream
+386 info trying registry request attempt 1 at 10:48:06
+387 http GET https://registry.npmjs.org/stringstream
+388 verbose url raw combined-stream
+389 verbose url resolving [ 'https://registry.npmjs.org/', './combined-stream' ]
+390 verbose url resolved https://registry.npmjs.org/combined-stream
+391 info trying registry request attempt 1 at 10:48:06
+392 http GET https://registry.npmjs.org/combined-stream
+393 verbose url raw isstream
+394 verbose url resolving [ 'https://registry.npmjs.org/', './isstream' ]
+395 verbose url resolved https://registry.npmjs.org/isstream
+396 info trying registry request attempt 1 at 10:48:06
+397 http GET https://registry.npmjs.org/isstream
+398 verbose url raw har-validator
+399 verbose url resolving [ 'https://registry.npmjs.org/', './har-validator' ]
+400 verbose url resolved https://registry.npmjs.org/har-validator
+401 info trying registry request attempt 1 at 10:48:06
+402 http GET https://registry.npmjs.org/har-validator
+403 silly addNameRange { name: 'bl', range: '>=0.9.0- <0.10.0-', hasData: false }
+404 silly addNameRange { name: 'caseless', range: '>=0.9.0- <0.10.0-', hasData: false }
+405 silly addNameRange { name: 'forever-agent',
+405 silly addNameRange   range: '>=0.6.0- <0.7.0-',
+405 silly addNameRange   hasData: false }
+406 silly addNameRange { name: 'form-data', range: '>=0.2.0- <0.3.0-', hasData: false }
+407 silly addNameRange { name: 'json-stringify-safe',
+407 silly addNameRange   range: '>=5.0.0- <5.1.0-',
+407 silly addNameRange   hasData: false }
+408 silly addNameRange { name: 'mime-types', range: '>=2.0.1- <2.1.0-', hasData: false }
+409 silly addNameRange { name: 'node-uuid', range: '>=1.4.0- <1.5.0-', hasData: false }
+410 silly addNameRange { name: 'qs', range: '>=2.4.0- <2.5.0-', hasData: false }
+411 silly addNameRange { name: 'tunnel-agent',
+411 silly addNameRange   range: '>=0.4.0- <0.5.0-',
+411 silly addNameRange   hasData: false }
+412 silly addNameRange { name: 'tough-cookie', range: '>=0.12.0', hasData: false }
+413 silly addNameRange { name: 'http-signature',
+413 silly addNameRange   range: '>=0.10.0- <0.11.0-',
+413 silly addNameRange   hasData: false }
+414 verbose url raw bl
+415 verbose url resolving [ 'https://registry.npmjs.org/', './bl' ]
+416 verbose url resolved https://registry.npmjs.org/bl
+417 info trying registry request attempt 1 at 10:48:06
+418 http GET https://registry.npmjs.org/bl
+419 verbose url raw caseless
+420 verbose url resolving [ 'https://registry.npmjs.org/', './caseless' ]
+421 verbose url resolved https://registry.npmjs.org/caseless
+422 info trying registry request attempt 1 at 10:48:06
+423 http GET https://registry.npmjs.org/caseless
+424 verbose url raw forever-agent
+425 verbose url resolving [ 'https://registry.npmjs.org/', './forever-agent' ]
+426 verbose url resolved https://registry.npmjs.org/forever-agent
+427 info trying registry request attempt 1 at 10:48:06
+428 http GET https://registry.npmjs.org/forever-agent
+429 verbose url raw form-data
+430 verbose url resolving [ 'https://registry.npmjs.org/', './form-data' ]
+431 verbose url resolved https://registry.npmjs.org/form-data
+432 info trying registry request attempt 1 at 10:48:06
+433 http GET https://registry.npmjs.org/form-data
+434 verbose url raw json-stringify-safe
+435 verbose url resolving [ 'https://registry.npmjs.org/', './json-stringify-safe' ]
+436 verbose url resolved https://registry.npmjs.org/json-stringify-safe
+437 info trying registry request attempt 1 at 10:48:06
+438 http GET https://registry.npmjs.org/json-stringify-safe
+439 verbose url raw mime-types
+440 verbose url resolving [ 'https://registry.npmjs.org/', './mime-types' ]
+441 verbose url resolved https://registry.npmjs.org/mime-types
+442 info trying registry request attempt 1 at 10:48:06
+443 http GET https://registry.npmjs.org/mime-types
+444 verbose url raw node-uuid
+445 verbose url resolving [ 'https://registry.npmjs.org/', './node-uuid' ]
+446 verbose url resolved https://registry.npmjs.org/node-uuid
+447 info trying registry request attempt 1 at 10:48:06
+448 http GET https://registry.npmjs.org/node-uuid
+449 verbose url raw qs
+450 verbose url resolving [ 'https://registry.npmjs.org/', './qs' ]
+451 verbose url resolved https://registry.npmjs.org/qs
+452 info trying registry request attempt 1 at 10:48:06
+453 http GET https://registry.npmjs.org/qs
+454 verbose url raw tunnel-agent
+455 verbose url resolving [ 'https://registry.npmjs.org/', './tunnel-agent' ]
+456 verbose url resolved https://registry.npmjs.org/tunnel-agent
+457 info trying registry request attempt 1 at 10:48:07
+458 http GET https://registry.npmjs.org/tunnel-agent
+459 verbose url raw tough-cookie
+460 verbose url resolving [ 'https://registry.npmjs.org/', './tough-cookie' ]
+461 verbose url resolved https://registry.npmjs.org/tough-cookie
+462 info trying registry request attempt 1 at 10:48:07
+463 http GET https://registry.npmjs.org/tough-cookie
+464 verbose url raw http-signature
+465 verbose url resolving [ 'https://registry.npmjs.org/', './http-signature' ]
+466 verbose url resolved https://registry.npmjs.org/http-signature
+467 info trying registry request attempt 1 at 10:48:07
+468 http GET https://registry.npmjs.org/http-signature
+469 http 200 https://registry.npmjs.org/aws-sign2
+470 silly registry.get cb [ 200,
+470 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+470 silly registry.get     etag: '"77UTUEWZP9JOTXY7N5GC34AZF"',
+470 silly registry.get     'content-type': 'application/json',
+470 silly registry.get     'cache-control': 'max-age=60',
+470 silly registry.get     'content-length': '2824',
+470 silly registry.get     'accept-ranges': 'bytes',
+470 silly registry.get     date: 'Sun, 10 May 2015 08:48:07 GMT',
+470 silly registry.get     via: '1.1 varnish',
+470 silly registry.get     age: '36',
+470 silly registry.get     connection: 'keep-alive',
+470 silly registry.get     'x-served-by': 'cache-fra1227-FRA',
+470 silly registry.get     'x-cache': 'HIT',
+470 silly registry.get     'x-cache-hits': '1',
+470 silly registry.get     'x-timer': 'S1431247687.672893,VS0,VE0',
+470 silly registry.get     vary: 'Accept' } ]
+471 http 200 https://registry.npmjs.org/stringstream
+472 silly registry.get cb [ 200,
+472 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+472 silly registry.get     etag: '"94592EEG2SF9H78JE4ETM0S7W"',
+472 silly registry.get     'content-type': 'application/json',
+472 silly registry.get     'cache-control': 'max-age=60',
+472 silly registry.get     'content-length': '8380',
+472 silly registry.get     'accept-ranges': 'bytes',
+472 silly registry.get     date: 'Sun, 10 May 2015 08:48:07 GMT',
+472 silly registry.get     via: '1.1 varnish',
+472 silly registry.get     age: '11',
+472 silly registry.get     connection: 'keep-alive',
+472 silly registry.get     'x-served-by': 'cache-fra1239-FRA',
+472 silly registry.get     'x-cache': 'HIT',
+472 silly registry.get     'x-cache-hits': '1',
+472 silly registry.get     'x-timer': 'S1431247687.684384,VS0,VE0',
+472 silly registry.get     vary: 'Accept' } ]
+473 http 200 https://registry.npmjs.org/oauth-sign
+474 silly registry.get cb [ 200,
+474 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+474 silly registry.get     etag: '"A3V12J9G2GT7R1Z7JE52QL1GX"',
+474 silly registry.get     'content-type': 'application/json',
+474 silly registry.get     'cache-control': 'max-age=60',
+474 silly registry.get     'content-length': '6771',
+474 silly registry.get     'accept-ranges': 'bytes',
+474 silly registry.get     date: 'Sun, 10 May 2015 08:48:07 GMT',
+474 silly registry.get     via: '1.1 varnish',
+474 silly registry.get     age: '40',
+474 silly registry.get     connection: 'keep-alive',
+474 silly registry.get     'x-served-by': 'cache-ams4124-AMS',
+474 silly registry.get     'x-cache': 'HIT',
+474 silly registry.get     'x-cache-hits': '1',
+474 silly registry.get     'x-timer': 'S1431247687.692958,VS0,VE0',
+474 silly registry.get     vary: 'Accept' } ]
+475 http 200 https://registry.npmjs.org/hawk
+476 silly registry.get cb [ 200,
+476 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+476 silly registry.get     etag: '"1Y2WJ6SJ4IUSJL6WFP4AXZU5T"',
+476 silly registry.get     'content-type': 'application/json',
+476 silly registry.get     'cache-control': 'max-age=60',
+476 silly registry.get     'content-length': '83302',
+476 silly registry.get     'accept-ranges': 'bytes',
+476 silly registry.get     date: 'Sun, 10 May 2015 08:48:07 GMT',
+476 silly registry.get     via: '1.1 varnish',
+476 silly registry.get     age: '1',
+476 silly registry.get     connection: 'keep-alive',
+476 silly registry.get     'x-served-by': 'cache-fra1239-FRA',
+476 silly registry.get     'x-cache': 'HIT',
+476 silly registry.get     'x-cache-hits': '1',
+476 silly registry.get     'x-timer': 'S1431247687.666368,VS0,VE0',
+476 silly registry.get     vary: 'Accept' } ]
+477 http 200 https://registry.npmjs.org/combined-stream
+478 silly registry.get cb [ 200,
+478 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+478 silly registry.get     etag: '"E089CEWSXM183GZG87KQ1B232"',
+478 silly registry.get     'content-type': 'application/json',
+478 silly registry.get     'cache-control': 'max-age=60',
+478 silly registry.get     'content-length': '15923',
+478 silly registry.get     'accept-ranges': 'bytes',
+478 silly registry.get     date: 'Sun, 10 May 2015 08:48:07 GMT',
+478 silly registry.get     via: '1.1 varnish',
+478 silly registry.get     age: '9',
+478 silly registry.get     connection: 'keep-alive',
+478 silly registry.get     'x-served-by': 'cache-fra1248-FRA',
+478 silly registry.get     'x-cache': 'HIT',
+478 silly registry.get     'x-cache-hits': '1',
+478 silly registry.get     'x-timer': 'S1431247687.706757,VS0,VE0',
+478 silly registry.get     vary: 'Accept' } ]
+479 http 200 https://registry.npmjs.org/har-validator
+480 silly registry.get cb [ 200,
+480 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+480 silly registry.get     etag: '"8DP9KMI7YH2U0MV8MHM7E6QZR"',
+480 silly registry.get     'content-type': 'application/json',
+480 silly registry.get     'cache-control': 'max-age=60',
+480 silly registry.get     'content-length': '33925',
+480 silly registry.get     'accept-ranges': 'bytes',
+480 silly registry.get     date: 'Sun, 10 May 2015 08:48:07 GMT',
+480 silly registry.get     via: '1.1 varnish',
+480 silly registry.get     age: '8',
+480 silly registry.get     connection: 'keep-alive',
+480 silly registry.get     'x-served-by': 'cache-fra1239-FRA',
+480 silly registry.get     'x-cache': 'HIT',
+480 silly registry.get     'x-cache-hits': '1',
+480 silly registry.get     'x-timer': 'S1431247687.846351,VS0,VE0',
+480 silly registry.get     vary: 'Accept' } ]
+481 http 200 https://registry.npmjs.org/bl
+482 silly registry.get cb [ 200,
+482 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+482 silly registry.get     etag: '"E43E0UEMRAJ5E8L1UOJR9Q769"',
+482 silly registry.get     'content-type': 'application/json',
+482 silly registry.get     'cache-control': 'max-age=60',
+482 silly registry.get     'content-length': '31856',
+482 silly registry.get     'accept-ranges': 'bytes',
+482 silly registry.get     date: 'Sun, 10 May 2015 08:48:07 GMT',
+482 silly registry.get     via: '1.1 varnish',
+482 silly registry.get     age: '17',
+482 silly registry.get     connection: 'keep-alive',
+482 silly registry.get     'x-served-by': 'cache-ams4124-AMS',
+482 silly registry.get     'x-cache': 'HIT',
+482 silly registry.get     'x-cache-hits': '2',
+482 silly registry.get     'x-timer': 'S1431247687.896913,VS0,VE0',
+482 silly registry.get     vary: 'Accept' } ]
+483 http 200 https://registry.npmjs.org/caseless
+484 silly registry.get cb [ 200,
+484 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+484 silly registry.get     etag: '"BENJ3TBXFWPW6LYUZGHI9QOMY"',
+484 silly registry.get     'content-type': 'application/json',
+484 silly registry.get     'cache-control': 'max-age=60',
+484 silly registry.get     'content-length': '11825',
+484 silly registry.get     'accept-ranges': 'bytes',
+484 silly registry.get     date: 'Sun, 10 May 2015 08:48:08 GMT',
+484 silly registry.get     via: '1.1 varnish',
+484 silly registry.get     age: '55',
+484 silly registry.get     connection: 'keep-alive',
+484 silly registry.get     'x-served-by': 'cache-fra1239-FRA',
+484 silly registry.get     'x-cache': 'HIT',
+484 silly registry.get     'x-cache-hits': '1',
+484 silly registry.get     'x-timer': 'S1431247688.010440,VS0,VE0',
+484 silly registry.get     vary: 'Accept' } ]
+485 http 200 https://registry.npmjs.org/forever-agent
+486 silly registry.get cb [ 200,
+486 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+486 silly registry.get     etag: '"CWCRJ4EQTE7B8DNSNMGZFPBBZ"',
+486 silly registry.get     'content-type': 'application/json',
+486 silly registry.get     'cache-control': 'max-age=60',
+486 silly registry.get     'content-length': '7953',
+486 silly registry.get     'accept-ranges': 'bytes',
+486 silly registry.get     date: 'Sun, 10 May 2015 08:48:08 GMT',
+486 silly registry.get     via: '1.1 varnish',
+486 silly registry.get     age: '30',
+486 silly registry.get     connection: 'keep-alive',
+486 silly registry.get     'x-served-by': 'cache-fra1248-FRA',
+486 silly registry.get     'x-cache': 'HIT',
+486 silly registry.get     'x-cache-hits': '1',
+486 silly registry.get     'x-timer': 'S1431247688.079007,VS0,VE0',
+486 silly registry.get     vary: 'Accept' } ]
+487 http 200 https://registry.npmjs.org/isstream
+488 silly registry.get cb [ 200,
+488 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+488 silly registry.get     etag: '"E4U8SUCKSKM10MS28MFTOVC6N"',
+488 silly registry.get     'content-type': 'application/json',
+488 silly registry.get     'cache-control': 'max-age=60',
+488 silly registry.get     'content-length': '7908',
+488 silly registry.get     'accept-ranges': 'bytes',
+488 silly registry.get     date: 'Sun, 10 May 2015 08:48:07 GMT',
+488 silly registry.get     via: '1.1 varnish',
+488 silly registry.get     age: '53',
+488 silly registry.get     connection: 'keep-alive',
+488 silly registry.get     'x-served-by': 'cache-fra1227-FRA',
+488 silly registry.get     'x-cache': 'HIT',
+488 silly registry.get     'x-cache-hits': '1',
+488 silly registry.get     'x-timer': 'S1431247687.782921,VS0,VE0',
+488 silly registry.get     vary: 'Accept' } ]
+489 http 200 https://registry.npmjs.org/form-data
+490 silly registry.get cb [ 200,
+490 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+490 silly registry.get     etag: '"67GT2Y0C10Y4B0Z10S15YEGZB"',
+490 silly registry.get     'content-type': 'application/json',
+490 silly registry.get     'cache-control': 'max-age=60',
+490 silly registry.get     'content-length': '25389',
+490 silly registry.get     'accept-ranges': 'bytes',
+490 silly registry.get     date: 'Sun, 10 May 2015 08:48:08 GMT',
+490 silly registry.get     via: '1.1 varnish',
+490 silly registry.get     age: '30',
+490 silly registry.get     connection: 'keep-alive',
+490 silly registry.get     'x-served-by': 'cache-fra1239-FRA',
+490 silly registry.get     'x-cache': 'HIT',
+490 silly registry.get     'x-cache-hits': '2',
+490 silly registry.get     'x-timer': 'S1431247688.212463,VS0,VE0',
+490 silly registry.get     vary: 'Accept' } ]
+491 http 200 https://registry.npmjs.org/json-stringify-safe
+492 silly registry.get cb [ 200,
+492 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+492 silly registry.get     etag: '"4YZGEE6H8OESB1MW3244HGKI8"',
+492 silly registry.get     'content-type': 'application/json',
+492 silly registry.get     'cache-control': 'max-age=60',
+492 silly registry.get     'content-length': '5330',
+492 silly registry.get     'accept-ranges': 'bytes',
+492 silly registry.get     date: 'Sun, 10 May 2015 08:48:08 GMT',
+492 silly registry.get     via: '1.1 varnish',
+492 silly registry.get     age: '41',
+492 silly registry.get     connection: 'keep-alive',
+492 silly registry.get     'x-served-by': 'cache-ams4124-AMS',
+492 silly registry.get     'x-cache': 'HIT',
+492 silly registry.get     'x-cache-hits': '1',
+492 silly registry.get     'x-timer': 'S1431247688.282920,VS0,VE0',
+492 silly registry.get     vary: 'Accept' } ]
+493 http 200 https://registry.npmjs.org/mime-types
+494 silly registry.get cb [ 200,
+494 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+494 silly registry.get     etag: '"D48KYGEH6ANBWYSE5K1OA6B86"',
+494 silly registry.get     'content-type': 'application/json',
+494 silly registry.get     'cache-control': 'max-age=60',
+494 silly registry.get     'content-length': '27978',
+494 silly registry.get     'accept-ranges': 'bytes',
+494 silly registry.get     date: 'Sun, 10 May 2015 08:48:08 GMT',
+494 silly registry.get     via: '1.1 varnish',
+494 silly registry.get     age: '14',
+494 silly registry.get     connection: 'keep-alive',
+494 silly registry.get     'x-served-by': 'cache-fra1239-FRA',
+494 silly registry.get     'x-cache': 'HIT',
+494 silly registry.get     'x-cache-hits': '1',
+494 silly registry.get     'x-timer': 'S1431247688.338805,VS0,VE0',
+494 silly registry.get     vary: 'Accept' } ]
+495 http 200 https://registry.npmjs.org/node-uuid
+496 silly registry.get cb [ 200,
+496 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+496 silly registry.get     etag: '"6DHZGSNYNPWJDLC8VXP8FIXWP"',
+496 silly registry.get     'content-type': 'application/json',
+496 silly registry.get     'cache-control': 'max-age=60',
+496 silly registry.get     'content-length': '19271',
+496 silly registry.get     'accept-ranges': 'bytes',
+496 silly registry.get     date: 'Sun, 10 May 2015 08:48:08 GMT',
+496 silly registry.get     via: '1.1 varnish',
+496 silly registry.get     age: '2',
+496 silly registry.get     connection: 'keep-alive',
+496 silly registry.get     'x-served-by': 'cache-fra1248-FRA',
+496 silly registry.get     'x-cache': 'HIT',
+496 silly registry.get     'x-cache-hits': '1',
+496 silly registry.get     'x-timer': 'S1431247688.392732,VS0,VE0',
+496 silly registry.get     vary: 'Accept' } ]
+497 http 200 https://registry.npmjs.org/tunnel-agent
+498 silly registry.get cb [ 200,
+498 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+498 silly registry.get     etag: '"7SIM5W8BAAIUSJ8JB9NACJEQ1"',
+498 silly registry.get     'content-type': 'application/json',
+498 silly registry.get     'cache-control': 'max-age=60',
+498 silly registry.get     'content-length': '3479',
+498 silly registry.get     'accept-ranges': 'bytes',
+498 silly registry.get     date: 'Sun, 10 May 2015 08:48:08 GMT',
+498 silly registry.get     via: '1.1 varnish',
+498 silly registry.get     age: '37',
+498 silly registry.get     connection: 'keep-alive',
+498 silly registry.get     'x-served-by': 'cache-fra1239-FRA',
+498 silly registry.get     'x-cache': 'HIT',
+498 silly registry.get     'x-cache-hits': '2',
+498 silly registry.get     'x-timer': 'S1431247688.584501,VS0,VE0',
+498 silly registry.get     vary: 'Accept' } ]
+499 http 200 https://registry.npmjs.org/tough-cookie
+500 silly registry.get cb [ 200,
+500 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+500 silly registry.get     etag: '"4XR9J7JN6FJH9G7JU2SU7Q8HB"',
+500 silly registry.get     'content-type': 'application/json',
+500 silly registry.get     'cache-control': 'max-age=60',
+500 silly registry.get     'content-length': '45278',
+500 silly registry.get     'accept-ranges': 'bytes',
+500 silly registry.get     date: 'Sun, 10 May 2015 08:48:08 GMT',
+500 silly registry.get     via: '1.1 varnish',
+500 silly registry.get     age: '35',
+500 silly registry.get     connection: 'keep-alive',
+500 silly registry.get     'x-served-by': 'cache-ams4124-AMS',
+500 silly registry.get     'x-cache': 'HIT',
+500 silly registry.get     'x-cache-hits': '1015',
+500 silly registry.get     'x-timer': 'S1431247688.633003,VS0,VE0',
+500 silly registry.get     vary: 'Accept' } ]
+501 http 200 https://registry.npmjs.org/http-signature
+502 silly registry.get cb [ 200,
+502 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+502 silly registry.get     etag: '"6X2EFJAJVCHY73LZ2MHUQ1TCT"',
+502 silly registry.get     'content-type': 'application/json',
+502 silly registry.get     'cache-control': 'max-age=60',
+502 silly registry.get     'content-length': '18167',
+502 silly registry.get     'accept-ranges': 'bytes',
+502 silly registry.get     date: 'Sun, 10 May 2015 08:48:08 GMT',
+502 silly registry.get     via: '1.1 varnish',
+502 silly registry.get     age: '56',
+502 silly registry.get     connection: 'keep-alive',
+502 silly registry.get     'x-served-by': 'cache-fra1239-FRA',
+502 silly registry.get     'x-cache': 'HIT',
+502 silly registry.get     'x-cache-hits': '1',
+502 silly registry.get     'x-timer': 'S1431247688.748580,VS0,VE0',
+502 silly registry.get     vary: 'Accept' } ]
+503 http 200 https://registry.npmjs.org/qs
+504 silly registry.get cb [ 200,
+504 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+504 silly registry.get     etag: '"6RZ4NBCBL9GAMUKY2GC4UZ0K5"',
+504 silly registry.get     'content-type': 'application/json',
+504 silly registry.get     'cache-control': 'max-age=60',
+504 silly registry.get     'content-length': '51486',
+504 silly registry.get     'accept-ranges': 'bytes',
+504 silly registry.get     date: 'Sun, 10 May 2015 08:48:08 GMT',
+504 silly registry.get     via: '1.1 varnish',
+504 silly registry.get     age: '13',
+504 silly registry.get     connection: 'keep-alive',
+504 silly registry.get     'x-served-by': 'cache-fra1227-FRA',
+504 silly registry.get     'x-cache': 'HIT',
+504 silly registry.get     'x-cache-hits': '2',
+504 silly registry.get     'x-timer': 'S1431247688.507124,VS0,VE0',
+504 silly registry.get     vary: 'Accept' } ]
+505 silly addNameRange number 2 { name: 'aws-sign2', range: '>=0.5.0- <0.6.0-', hasData: true }
+506 silly addNameRange versions [ 'aws-sign2', [ '0.4.0', '0.5.0' ] ]
+507 verbose addNamed [ 'aws-sign2', '0.5.0' ]
+508 verbose addNamed [ '0.5.0', '0.5.0' ]
+509 silly lockFile 5a1dbd9b-aws-sign2-0-5-0 aws-sign2@0.5.0
+510 verbose lock aws-sign2@0.5.0 /root/.npm/5a1dbd9b-aws-sign2-0-5-0.lock
+511 silly addNameRange number 2 { name: 'stringstream',
+511 silly addNameRange   range: '>=0.0.4- <0.1.0-',
+511 silly addNameRange   hasData: true }
+512 silly addNameRange versions [ 'stringstream',
+512 silly addNameRange   [ '0.0.0', '0.0.1', '0.0.2', '0.0.3', '0.0.4' ] ]
+513 verbose addNamed [ 'stringstream', '0.0.4' ]
+514 verbose addNamed [ '0.0.4', '0.0.4' ]
+515 silly lockFile d5b1739d-stringstream-0-0-4 stringstream@0.0.4
+516 verbose lock stringstream@0.0.4 /root/.npm/d5b1739d-stringstream-0-0-4.lock
+517 silly addNameRange number 2 { name: 'oauth-sign', range: '>=0.6.0- <0.7.0-', hasData: true }
+518 silly addNameRange versions [ 'oauth-sign',
+518 silly addNameRange   [ '0.2.0', '0.3.0', '0.4.0', '0.5.0', '0.6.0', '0.7.0' ] ]
+519 verbose addNamed [ 'oauth-sign', '0.6.0' ]
+520 verbose addNamed [ '0.6.0', '0.6.0' ]
+521 silly lockFile ffcfa781-oauth-sign-0-6-0 oauth-sign@0.6.0
+522 verbose lock oauth-sign@0.6.0 /root/.npm/ffcfa781-oauth-sign-0-6-0.lock
+523 silly addNameRange number 2 { name: 'hawk', range: '>=2.3.0- <2.4.0-', hasData: true }
+524 silly addNameRange versions [ 'hawk',
+524 silly addNameRange   [ '0.0.1',
+524 silly addNameRange     '0.0.2',
+524 silly addNameRange     '0.0.3',
+524 silly addNameRange     '0.0.4',
+524 silly addNameRange     '0.0.5',
+524 silly addNameRange     '0.0.6',
+524 silly addNameRange     '0.0.7',
+524 silly addNameRange     '0.0.8',
+524 silly addNameRange     '0.1.0',
+524 silly addNameRange     '0.2.0',
+524 silly addNameRange     '0.3.0',
+524 silly addNameRange     '0.4.0',
+524 silly addNameRange     '0.5.0',
+524 silly addNameRange     '0.5.1',
+524 silly addNameRange     '0.5.2',
+524 silly addNameRange     '0.5.3',
+524 silly addNameRange     '0.6.0',
+524 silly addNameRange     '0.6.1',
+524 silly addNameRange     '0.7.0',
+524 silly addNameRange     '0.7.1',
+524 silly addNameRange     '0.8.1',
+524 silly addNameRange     '0.9.0',
+524 silly addNameRange     '0.10.0',
+524 silly addNameRange     '0.10.1',
+524 silly addNameRange     '0.10.2',
+524 silly addNameRange     '0.11.0',
+524 silly addNameRange     '0.11.1',
+524 silly addNameRange     '0.12.0',
+524 silly addNameRange     '0.12.1',
+524 silly addNameRange     '0.12.2',
+524 silly addNameRange     '0.13.0',
+524 silly addNameRange     '0.13.1',
+524 silly addNameRange     '0.14.0',
+524 silly addNameRange     '0.15.0',
+524 silly addNameRange     '1.0.0',
+524 silly addNameRange     '1.1.0-pre',
+524 silly addNameRange     '1.1.1',
+524 silly addNameRange     '1.1.2',
+524 silly addNameRange     '2.0.0',
+524 silly addNameRange     '2.1.0',
+524 silly addNameRange     '2.1.1',
+524 silly addNameRange     '2.1.2',
+524 silly addNameRange     '2.1.3',
+524 silly addNameRange     '2.2.0',
+524 silly addNameRange     '2.2.1',
+524 silly addNameRange     '2.2.2',
+524 silly addNameRange     '2.2.3',
+524 silly addNameRange     '2.3.0',
+524 silly addNameRange     '2.3.1' ] ]
+525 verbose addNamed [ 'hawk', '2.3.1' ]
+526 verbose addNamed [ '2.3.1', '2.3.1' ]
+527 silly lockFile b676c4e3-hawk-2-3-1 hawk@2.3.1
+528 verbose lock hawk@2.3.1 /root/.npm/b676c4e3-hawk-2-3-1.lock
+529 silly addNameRange number 2 { name: 'combined-stream',
+529 silly addNameRange   range: '>=0.0.5- <0.1.0-',
+529 silly addNameRange   hasData: true }
+530 silly addNameRange versions [ 'combined-stream',
+530 silly addNameRange   [ '0.0.0',
+530 silly addNameRange     '0.0.1',
+530 silly addNameRange     '0.0.2',
+530 silly addNameRange     '0.0.3',
+530 silly addNameRange     '0.0.4',
+530 silly addNameRange     '0.0.5',
+530 silly addNameRange     '0.0.7',
+530 silly addNameRange     '1.0.0',
+530 silly addNameRange     '1.0.1',
+530 silly addNameRange     '1.0.2' ] ]
+531 verbose addNamed [ 'combined-stream', '0.0.7' ]
+532 verbose addNamed [ '0.0.7', '0.0.7' ]
+533 silly lockFile efcbe7ce-combined-stream-0-0-7 combined-stream@0.0.7
+534 verbose lock combined-stream@0.0.7 /root/.npm/efcbe7ce-combined-stream-0-0-7.lock
+535 silly lockFile 81abc81e-har-validator-1-4-0 har-validator@^1.4.0
+536 silly lockFile 81abc81e-har-validator-1-4-0 har-validator@^1.4.0
+537 silly addNameRange number 2 { name: 'bl', range: '>=0.9.0- <0.10.0-', hasData: true }
+538 silly addNameRange versions [ 'bl',
+538 silly addNameRange   [ '0.0.0',
+538 silly addNameRange     '0.1.0',
+538 silly addNameRange     '0.1.1',
+538 silly addNameRange     '0.2.0',
+538 silly addNameRange     '0.3.0',
+538 silly addNameRange     '0.4.0',
+538 silly addNameRange     '0.4.1',
+538 silly addNameRange     '0.4.2',
+538 silly addNameRange     '0.5.0',
+538 silly addNameRange     '0.6.0',
+538 silly addNameRange     '0.7.0',
+538 silly addNameRange     '0.8.0',
+538 silly addNameRange     '0.8.1',
+538 silly addNameRange     '0.8.2',
+538 silly addNameRange     '0.9.0',
+538 silly addNameRange     '0.9.1',
+538 silly addNameRange     '0.9.2',
+538 silly addNameRange     '0.9.3',
+538 silly addNameRange     '0.9.4' ] ]
+539 verbose addNamed [ 'bl', '0.9.4' ]
+540 verbose addNamed [ '0.9.4', '0.9.4' ]
+541 silly lockFile a57792fd-bl-0-9-4 bl@0.9.4
+542 verbose lock bl@0.9.4 /root/.npm/a57792fd-bl-0-9-4.lock
+543 silly addNameRange number 2 { name: 'caseless', range: '>=0.9.0- <0.10.0-', hasData: true }
+544 silly addNameRange versions [ 'caseless',
+544 silly addNameRange   [ '0.1.0',
+544 silly addNameRange     '0.2.0',
+544 silly addNameRange     '0.3.0',
+544 silly addNameRange     '0.4.0',
+544 silly addNameRange     '0.5.0',
+544 silly addNameRange     '0.6.0',
+544 silly addNameRange     '0.7.0',
+544 silly addNameRange     '0.8.0',
+544 silly addNameRange     '0.9.0',
+544 silly addNameRange     '0.10.0' ] ]
+545 verbose addNamed [ 'caseless', '0.9.0' ]
+546 verbose addNamed [ '0.9.0', '0.9.0' ]
+547 silly lockFile 3630e9d0-caseless-0-9-0 caseless@0.9.0
+548 verbose lock caseless@0.9.0 /root/.npm/3630e9d0-caseless-0-9-0.lock
+549 silly addNameRange number 2 { name: 'forever-agent',
+549 silly addNameRange   range: '>=0.6.0- <0.7.0-',
+549 silly addNameRange   hasData: true }
+550 silly addNameRange versions [ 'forever-agent',
+550 silly addNameRange   [ '0.2.0', '0.3.0', '0.4.0', '0.5.0', '0.5.2', '0.6.0', '0.6.1' ] ]
+551 verbose addNamed [ 'forever-agent', '0.6.1' ]
+552 verbose addNamed [ '0.6.1', '0.6.1' ]
+553 silly lockFile 96606622-forever-agent-0-6-1 forever-agent@0.6.1
+554 verbose lock forever-agent@0.6.1 /root/.npm/96606622-forever-agent-0-6-1.lock
+555 silly lockFile deea4ab4-rg-aws-sign2-aws-sign2-0-5-0-tgz https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.5.0.tgz
+556 verbose lock https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.5.0.tgz /root/.npm/deea4ab4-rg-aws-sign2-aws-sign2-0-5-0-tgz.lock
+557 silly lockFile 302441b6-ingstream-stringstream-0-0-4-tgz https://registry.npmjs.org/stringstream/-/stringstream-0.0.4.tgz
+558 verbose lock https://registry.npmjs.org/stringstream/-/stringstream-0.0.4.tgz /root/.npm/302441b6-ingstream-stringstream-0-0-4-tgz.lock
+559 silly lockFile b29fcdf9--oauth-sign-oauth-sign-0-6-0-tgz https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.6.0.tgz
+560 verbose lock https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.6.0.tgz /root/.npm/b29fcdf9--oauth-sign-oauth-sign-0-6-0-tgz.lock
+561 silly lockFile 7ee7fd30-ry-npmjs-org-hawk-hawk-2-3-1-tgz https://registry.npmjs.org/hawk/-/hawk-2.3.1.tgz
+562 verbose lock https://registry.npmjs.org/hawk/-/hawk-2.3.1.tgz /root/.npm/7ee7fd30-ry-npmjs-org-hawk-hawk-2-3-1-tgz.lock
+563 silly lockFile cbdf551c-stream-combined-stream-0-0-7-tgz https://registry.npmjs.org/combined-stream/-/combined-stream-0.0.7.tgz
+564 verbose lock https://registry.npmjs.org/combined-stream/-/combined-stream-0.0.7.tgz /root/.npm/cbdf551c-stream-combined-stream-0-0-7-tgz.lock
+565 silly addNameRange number 2 { name: 'isstream', range: '>=0.1.1- <0.2.0-', hasData: true }
+566 silly addNameRange versions [ 'isstream', [ '0.0.0', '0.1.0', '0.1.1', '0.1.2' ] ]
+567 verbose addNamed [ 'isstream', '0.1.2' ]
+568 verbose addNamed [ '0.1.2', '0.1.2' ]
+569 silly lockFile 6cc41951-isstream-0-1-2 isstream@0.1.2
+570 verbose lock isstream@0.1.2 /root/.npm/6cc41951-isstream-0-1-2.lock
+571 silly addNameRange number 2 { name: 'form-data', range: '>=0.2.0- <0.3.0-', hasData: true }
+572 silly addNameRange versions [ 'form-data',
+572 silly addNameRange   [ '0.0.0',
+572 silly addNameRange     '0.0.2',
+572 silly addNameRange     '0.0.3',
+572 silly addNameRange     '0.0.4',
+572 silly addNameRange     '0.0.5',
+572 silly addNameRange     '0.0.6',
+572 silly addNameRange     '0.0.7',
+572 silly addNameRange     '0.0.8',
+572 silly addNameRange     '0.0.9',
+572 silly addNameRange     '0.0.10',
+572 silly addNameRange     '0.1.0',
+572 silly addNameRange     '0.1.1',
+572 silly addNameRange     '0.1.2',
+572 silly addNameRange     '0.1.3',
+572 silly addNameRange     '0.1.4',
+572 silly addNameRange     '0.2.0' ] ]
+573 verbose addNamed [ 'form-data', '0.2.0' ]
+574 verbose addNamed [ '0.2.0', '0.2.0' ]
+575 silly lockFile d3936d12-form-data-0-2-0 form-data@0.2.0
+576 verbose lock form-data@0.2.0 /root/.npm/d3936d12-form-data-0-2-0.lock
+577 silly addNameRange number 2 { name: 'json-stringify-safe',
+577 silly addNameRange   range: '>=5.0.0- <5.1.0-',
+577 silly addNameRange   hasData: true }
+578 silly addNameRange versions [ 'json-stringify-safe',
+578 silly addNameRange   [ '2.0.0', '3.0.0', '4.0.0', '5.0.0' ] ]
+579 verbose addNamed [ 'json-stringify-safe', '5.0.0' ]
+580 verbose addNamed [ '5.0.0', '5.0.0' ]
+581 silly lockFile 1d9ebe76-json-stringify-safe-5-0-0 json-stringify-safe@5.0.0
+582 verbose lock json-stringify-safe@5.0.0 /root/.npm/1d9ebe76-json-stringify-safe-5-0-0.lock
+583 silly addNameRange number 2 { name: 'mime-types', range: '>=2.0.1- <2.1.0-', hasData: true }
+584 silly addNameRange versions [ 'mime-types',
+584 silly addNameRange   [ '0.1.0',
+584 silly addNameRange     '1.0.0',
+584 silly addNameRange     '1.0.1',
+584 silly addNameRange     '1.0.2',
+584 silly addNameRange     '2.0.0',
+584 silly addNameRange     '2.0.1',
+584 silly addNameRange     '2.0.2',
+584 silly addNameRange     '2.0.3',
+584 silly addNameRange     '2.0.4',
+584 silly addNameRange     '2.0.5',
+584 silly addNameRange     '2.0.6',
+584 silly addNameRange     '2.0.7',
+584 silly addNameRange     '2.0.8',
+584 silly addNameRange     '2.0.9',
+584 silly addNameRange     '2.0.10',
+584 silly addNameRange     '2.0.11' ] ]
+585 verbose addNamed [ 'mime-types', '2.0.11' ]
+586 verbose addNamed [ '2.0.11', '2.0.11' ]
+587 silly lockFile 433d6c82-mime-types-2-0-11 mime-types@2.0.11
+588 verbose lock mime-types@2.0.11 /root/.npm/433d6c82-mime-types-2-0-11.lock
+589 silly addNameRange number 2 { name: 'node-uuid', range: '>=1.4.0- <1.5.0-', hasData: true }
+590 silly addNameRange versions [ 'node-uuid',
+590 silly addNameRange   [ '1.2.0',
+590 silly addNameRange     '1.3.0',
+590 silly addNameRange     '1.3.1',
+590 silly addNameRange     '1.3.2',
+590 silly addNameRange     '1.1.0',
+590 silly addNameRange     '1.0.0',
+590 silly addNameRange     '1.3.3',
+590 silly addNameRange     '1.4.0',
+590 silly addNameRange     '1.4.1',
+590 silly addNameRange     '1.4.2',
+590 silly addNameRange     '1.4.3' ] ]
+591 verbose addNamed [ 'node-uuid', '1.4.3' ]
+592 verbose addNamed [ '1.4.3', '1.4.3' ]
+593 silly lockFile 032f5ce0-node-uuid-1-4-3 node-uuid@1.4.3
+594 verbose lock node-uuid@1.4.3 /root/.npm/032f5ce0-node-uuid-1-4-3.lock
+595 verbose addRemoteTarball [ 'https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.5.0.tgz',
+595 verbose addRemoteTarball   'c57103f7a17fc037f02d7c2e64b602ea223f7d63' ]
+596 verbose addRemoteTarball [ 'https://registry.npmjs.org/stringstream/-/stringstream-0.0.4.tgz',
+596 verbose addRemoteTarball   '0f0e3423f942960b5692ac324a57dd093bc41a92' ]
+597 verbose addRemoteTarball [ 'https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.6.0.tgz',
+597 verbose addRemoteTarball   '7dbeae44f6ca454e1f168451d630746735813ce3' ]
+598 verbose addRemoteTarball [ 'https://registry.npmjs.org/hawk/-/hawk-2.3.1.tgz',
+598 verbose addRemoteTarball   '1e731ce39447fa1d0f6d707f7bceebec0fd1ec1f' ]
+599 verbose addRemoteTarball [ 'https://registry.npmjs.org/combined-stream/-/combined-stream-0.0.7.tgz',
+599 verbose addRemoteTarball   '0137e657baa5a7541c57ac37ac5fc07d73b4dc1f' ]
+600 verbose about to build /home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules/request
+601 info /home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules/request unbuild
+602 verbose from cache /home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules/request/package.json
+603 info preuninstall request@2.55.0
+604 silly lockFile cdada86e-gistry-npmjs-org-bl-bl-0-9-4-tgz https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
+605 verbose lock https://registry.npmjs.org/bl/-/bl-0.9.4.tgz /root/.npm/cdada86e-gistry-npmjs-org-bl-bl-0-9-4-tgz.lock
+606 silly lockFile 5ac8f358--org-caseless-caseless-0-9-0-tgz https://registry.npmjs.org/caseless/-/caseless-0.9.0.tgz
+607 verbose lock https://registry.npmjs.org/caseless/-/caseless-0.9.0.tgz /root/.npm/5ac8f358--org-caseless-caseless-0-9-0-tgz.lock
+608 silly lockFile 4a1634aa-er-agent-forever-agent-0-6-1-tgz https://registry.npmjs.org/forever-agent/-/forever-agent-0.6.1.tgz
+609 verbose lock https://registry.npmjs.org/forever-agent/-/forever-agent-0.6.1.tgz /root/.npm/4a1634aa-er-agent-forever-agent-0-6-1-tgz.lock
+610 silly addNameRange number 2 { name: 'tunnel-agent',
+610 silly addNameRange   range: '>=0.4.0- <0.5.0-',
+610 silly addNameRange   hasData: true }
+611 silly addNameRange versions [ 'tunnel-agent', [ '0.2.0', '0.3.0', '0.4.0' ] ]
+612 verbose addNamed [ 'tunnel-agent', '0.4.0' ]
+613 verbose addNamed [ '0.4.0', '0.4.0' ]
+614 silly lockFile d3ccfadd-tunnel-agent-0-4-0 tunnel-agent@0.4.0
+615 verbose lock tunnel-agent@0.4.0 /root/.npm/d3ccfadd-tunnel-agent-0-4-0.lock
+616 silly addNameRange number 2 { name: 'tough-cookie', range: '>=0.12.0', hasData: true }
+617 silly addNameRange versions [ 'tough-cookie',
+617 silly addNameRange   [ '0.9.0',
+617 silly addNameRange     '0.9.1',
+617 silly addNameRange     '0.9.3',
+617 silly addNameRange     '0.9.4',
+617 silly addNameRange     '0.9.5',
+617 silly addNameRange     '0.9.6',
+617 silly addNameRange     '0.9.7',
+617 silly addNameRange     '0.9.8',
+617 silly addNameRange     '0.9.9',
+617 silly addNameRange     '0.9.11',
+617 silly addNameRange     '0.9.12',
+617 silly addNameRange     '0.9.13',
+617 silly addNameRange     '0.9.14',
+617 silly addNameRange     '0.9.15',
+617 silly addNameRange     '0.10.0',
+617 silly addNameRange     '0.11.0',
+617 silly addNameRange     '0.12.0',
+617 silly addNameRange     '0.12.1',
+617 silly addNameRange     '0.13.0',
+617 silly addNameRange     '1.0.0',
+617 silly addNameRange     '1.1.0' ] ]
+618 verbose addNamed [ 'tough-cookie', '1.1.0' ]
+619 verbose addNamed [ '1.1.0', '1.1.0' ]
+620 silly lockFile 302e3b75-tough-cookie-1-1-0 tough-cookie@1.1.0
+621 verbose lock tough-cookie@1.1.0 /root/.npm/302e3b75-tough-cookie-1-1-0.lock
+622 silly addNameRange number 2 { name: 'http-signature',
+622 silly addNameRange   range: '>=0.10.0- <0.11.0-',
+622 silly addNameRange   hasData: true }
+623 silly addNameRange versions [ 'http-signature',
+623 silly addNameRange   [ '0.9.0',
+623 silly addNameRange     '0.9.2',
+623 silly addNameRange     '0.9.3',
+623 silly addNameRange     '0.9.4',
+623 silly addNameRange     '0.9.5',
+623 silly addNameRange     '0.9.6',
+623 silly addNameRange     '0.9.7',
+623 silly addNameRange     '0.9.8',
+623 silly addNameRange     '0.9.9',
+623 silly addNameRange     '0.9.10',
+623 silly addNameRange     '0.9.11',
+623 silly addNameRange     '0.10.0',
+623 silly addNameRange     '0.10.1',
+623 silly addNameRange     '0.11.0' ] ]
+624 verbose addNamed [ 'http-signature', '0.10.1' ]
+625 verbose addNamed [ '0.10.1', '0.10.1' ]
+626 silly lockFile 2847f457-http-signature-0-10-1 http-signature@0.10.1
+627 verbose lock http-signature@0.10.1 /root/.npm/2847f457-http-signature-0-10-1.lock
+628 info retry fetch attempt 1 at 10:48:09
+629 verbose fetch to= /root/tmp/npm-9279/1431247689631-0.42837768280878663/tmp.tgz
+630 info retry fetch attempt 1 at 10:48:09
+631 verbose fetch to= /root/tmp/npm-9279/1431247689639-0.8037694105878472/tmp.tgz
+632 info retry fetch attempt 1 at 10:48:09
+633 verbose fetch to= /root/tmp/npm-9279/1431247689649-0.2765005782712251/tmp.tgz
+634 info retry fetch attempt 1 at 10:48:09
+635 verbose fetch to= /root/tmp/npm-9279/1431247689655-0.3561784066259861/tmp.tgz
+636 info retry fetch attempt 1 at 10:48:09
+637 verbose fetch to= /root/tmp/npm-9279/1431247689662-0.4363972838036716/tmp.tgz
+638 verbose addRemoteTarball [ 'https://registry.npmjs.org/bl/-/bl-0.9.4.tgz',
+638 verbose addRemoteTarball   '4702ddf72fbe0ecd82787c00c113aea1935ad0e7' ]
+639 verbose addRemoteTarball [ 'https://registry.npmjs.org/caseless/-/caseless-0.9.0.tgz',
+639 verbose addRemoteTarball   'b7b65ce6bf1413886539cfd533f0b30effa9cf88' ]
+640 verbose addRemoteTarball [ 'https://registry.npmjs.org/forever-agent/-/forever-agent-0.6.1.tgz',
+640 verbose addRemoteTarball   'fbc71f0c41adeb37f96c577ad1ed42d8fdacca91' ]
+641 silly lockFile 1c172cac--org-isstream-isstream-0-1-2-tgz https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz
+642 verbose lock https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz /root/.npm/1c172cac--org-isstream-isstream-0-1-2-tgz.lock
+643 silly lockFile 8fb3467f-rg-form-data-form-data-0-2-0-tgz https://registry.npmjs.org/form-data/-/form-data-0.2.0.tgz
+644 verbose lock https://registry.npmjs.org/form-data/-/form-data-0.2.0.tgz /root/.npm/8fb3467f-rg-form-data-form-data-0-2-0-tgz.lock
+645 silly lockFile 830a0d02-fe-json-stringify-safe-5-0-0-tgz https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.0.tgz
+646 verbose lock https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.0.tgz /root/.npm/830a0d02-fe-json-stringify-safe-5-0-0-tgz.lock
+647 silly lockFile 29159fed-mime-types-mime-types-2-0-11-tgz https://registry.npmjs.org/mime-types/-/mime-types-2.0.11.tgz
+648 verbose lock https://registry.npmjs.org/mime-types/-/mime-types-2.0.11.tgz /root/.npm/29159fed-mime-types-mime-types-2-0-11-tgz.lock
+649 silly lockFile b6522286-rg-node-uuid-node-uuid-1-4-3-tgz https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.3.tgz
+650 verbose lock https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.3.tgz /root/.npm/b6522286-rg-node-uuid-node-uuid-1-4-3-tgz.lock
+651 silly addNameRange number 2 { name: 'qs', range: '>=2.4.0- <2.5.0-', hasData: true }
+652 silly addNameRange versions [ 'qs',
+652 silly addNameRange   [ '0.0.1',
+652 silly addNameRange     '0.0.2',
+652 silly addNameRange     '0.0.3',
+652 silly addNameRange     '0.0.4',
+652 silly addNameRange     '0.0.5',
+652 silly addNameRange     '0.0.6',
+652 silly addNameRange     '0.0.7',
+652 silly addNameRange     '0.1.0',
+652 silly addNameRange     '0.2.0',
+652 silly addNameRange     '0.3.0',
+652 silly addNameRange     '0.3.1',
+652 silly addNameRange     '0.3.2',
+652 silly addNameRange     '0.4.0',
+652 silly addNameRange     '0.4.1',
+652 silly addNameRange     '0.4.2',
+652 silly addNameRange     '0.5.0',
+652 silly addNameRange     '0.5.1',
+652 silly addNameRange     '0.5.2',
+652 silly addNameRange     '0.5.3',
+652 silly addNameRange     '0.5.4',
+652 silly addNameRange     '0.5.5',
+652 silly addNameRange     '0.5.6',
+652 silly addNameRange     '0.6.0',
+652 silly addNameRange     '0.6.1',
+652 silly addNameRange     '0.6.2',
+652 silly addNameRange     '0.6.3',
+652 silly addNameRange     '0.6.4',
+652 silly addNameRange     '0.6.5',
+652 silly addNameRange     '0.6.6',
+652 silly addNameRange     '1.0.0',
+652 silly addNameRange     '1.0.1',
+652 silly addNameRange     '1.0.2',
+652 silly addNameRange     '1.1.0',
+652 silly addNameRange     '1.2.0',
+652 silly addNameRange     '1.2.1',
+652 silly addNameRange     '1.2.2',
+652 silly addNameRange     '2.0.0',
+652 silly addNameRange     '2.1.0',
+652 silly addNameRange     '2.2.0',
+652 silly addNameRange     '2.2.1',
+652 silly addNameRange     '2.2.2',
+652 silly addNameRange     '2.2.3',
+652 silly addNameRange     '2.2.4',
+652 silly addNameRange     '2.2.5',
+652 silly addNameRange     '2.3.0',
+652 silly addNameRange     '2.3.1',
+652 silly addNameRange     '2.3.2',
+652 silly addNameRange     '2.3.3',
+652 silly addNameRange     '2.4.0',
+652 silly addNameRange     '2.4.1',
+652 silly addNameRange     '2.4.2' ] ]
+653 verbose addNamed [ 'qs', '2.4.2' ]
+654 verbose addNamed [ '2.4.2', '2.4.2' ]
+655 silly lockFile a2a7c4ec-qs-2-4-2 qs@2.4.2
+656 verbose lock qs@2.4.2 /root/.npm/a2a7c4ec-qs-2-4-2.lock
+657 info uninstall request@2.55.0
+658 info retry fetch attempt 1 at 10:48:10
+659 verbose fetch to= /root/tmp/npm-9279/1431247689786-0.8629524796269834/tmp.tgz
+660 info retry fetch attempt 1 at 10:48:10
+661 verbose fetch to= /root/tmp/npm-9279/1431247689798-0.9758785576559603/tmp.tgz
+662 info retry fetch attempt 1 at 10:48:10
+663 verbose fetch to= /root/tmp/npm-9279/1431247689804-0.624528368236497/tmp.tgz
+664 verbose addRemoteTarball [ 'https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz',
+664 verbose addRemoteTarball   '47e63f7af55afa6f92e1500e690eb8b8529c099a' ]
+665 verbose addRemoteTarball [ 'https://registry.npmjs.org/form-data/-/form-data-0.2.0.tgz',
+665 verbose addRemoteTarball   '26f8bc26da6440e299cbdcfb69035c4f77a6e466' ]
+666 verbose addRemoteTarball [ 'https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.0.tgz',
+666 verbose addRemoteTarball   '4c1f228b5050837eba9d21f50c2e6e320624566e' ]
+667 verbose addRemoteTarball [ 'https://registry.npmjs.org/mime-types/-/mime-types-2.0.11.tgz',
+667 verbose addRemoteTarball   'bf3449042799d877c815c29929d1e74760e72007' ]
+668 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.3.tgz',
+668 verbose addRemoteTarball   '319bb7a56e7cb63f00b5c0cd7851cd4b4ddf1df9' ]
+669 silly lockFile 680ef23e-nel-agent-tunnel-agent-0-4-0-tgz https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.4.0.tgz
+670 verbose lock https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.4.0.tgz /root/.npm/680ef23e-nel-agent-tunnel-agent-0-4-0-tgz.lock
+671 silly lockFile b4c5208f-gh-cookie-tough-cookie-1-1-0-tgz https://registry.npmjs.org/tough-cookie/-/tough-cookie-1.1.0.tgz
+672 verbose lock https://registry.npmjs.org/tough-cookie/-/tough-cookie-1.1.0.tgz /root/.npm/b4c5208f-gh-cookie-tough-cookie-1-1-0-tgz.lock
+673 silly lockFile 6389fa52-nature-http-signature-0-10-1-tgz https://registry.npmjs.org/http-signature/-/http-signature-0.10.1.tgz
+674 verbose lock https://registry.npmjs.org/http-signature/-/http-signature-0.10.1.tgz /root/.npm/6389fa52-nature-http-signature-0-10-1-tgz.lock
+675 http GET https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.5.0.tgz
+676 http GET https://registry.npmjs.org/stringstream/-/stringstream-0.0.4.tgz
+677 http GET https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.6.0.tgz
+678 http GET https://registry.npmjs.org/hawk/-/hawk-2.3.1.tgz
+679 http GET https://registry.npmjs.org/combined-stream/-/combined-stream-0.0.7.tgz
+680 info retry fetch attempt 1 at 10:48:10
+681 verbose fetch to= /root/tmp/npm-9279/1431247689952-0.1959530976600945/tmp.tgz
+682 info retry fetch attempt 1 at 10:48:10
+683 verbose fetch to= /root/tmp/npm-9279/1431247689959-0.6450569045264274/tmp.tgz
+684 info retry fetch attempt 1 at 10:48:10
+685 verbose fetch to= /root/tmp/npm-9279/1431247689965-0.34504549438133836/tmp.tgz
+686 info retry fetch attempt 1 at 10:48:10
+687 verbose fetch to= /root/tmp/npm-9279/1431247689972-0.7645362396724522/tmp.tgz
+688 info retry fetch attempt 1 at 10:48:10
+689 verbose fetch to= /root/tmp/npm-9279/1431247689984-0.188032467616722/tmp.tgz
+690 verbose addRemoteTarball [ 'https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.4.0.tgz',
+690 verbose addRemoteTarball   'b1184e312ffbcf70b3b4c78e8c219de7ebb1c550' ]
+691 verbose addRemoteTarball [ 'https://registry.npmjs.org/tough-cookie/-/tough-cookie-1.1.0.tgz',
+691 verbose addRemoteTarball   '126d2490e66ae5286b6863debd4a341076915954' ]
+692 verbose addRemoteTarball [ 'https://registry.npmjs.org/http-signature/-/http-signature-0.10.1.tgz',
+692 verbose addRemoteTarball   '4fbdac132559aa8323121e540779c0a012b27e66' ]
+693 silly lockFile 37db3696-gistry-npmjs-org-qs-qs-2-4-2-tgz https://registry.npmjs.org/qs/-/qs-2.4.2.tgz
+694 verbose lock https://registry.npmjs.org/qs/-/qs-2.4.2.tgz /root/.npm/37db3696-gistry-npmjs-org-qs-qs-2-4-2-tgz.lock
+695 verbose true,/home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules,/home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules unbuild request@2.55.0
+696 info postuninstall request@2.55.0
+697 http GET https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
+698 http GET https://registry.npmjs.org/caseless/-/caseless-0.9.0.tgz
+699 http GET https://registry.npmjs.org/forever-agent/-/forever-agent-0.6.1.tgz
+700 info retry fetch attempt 1 at 10:48:10
+701 verbose fetch to= /root/tmp/npm-9279/1431247690103-0.04423692682757974/tmp.tgz
+702 info retry fetch attempt 1 at 10:48:10
+703 verbose fetch to= /root/tmp/npm-9279/1431247690109-0.7354490216821432/tmp.tgz
+704 info retry fetch attempt 1 at 10:48:10
+705 verbose fetch to= /root/tmp/npm-9279/1431247690115-0.637021601665765/tmp.tgz
+706 verbose addRemoteTarball [ 'https://registry.npmjs.org/qs/-/qs-2.4.2.tgz',
+706 verbose addRemoteTarball   'f7ce788e5777df0b5010da7f7c4e73ba32470f5a' ]
+707 http GET https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz
+708 http GET https://registry.npmjs.org/form-data/-/form-data-0.2.0.tgz
+709 http GET https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.0.tgz
+710 http GET https://registry.npmjs.org/mime-types/-/mime-types-2.0.11.tgz
+711 http GET https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.3.tgz
+712 info retry fetch attempt 1 at 10:48:10
+713 verbose fetch to= /root/tmp/npm-9279/1431247690475-0.6947172773070633/tmp.tgz
+714 http GET https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.4.0.tgz
+715 http GET https://registry.npmjs.org/tough-cookie/-/tough-cookie-1.1.0.tgz
+716 http GET https://registry.npmjs.org/http-signature/-/http-signature-0.10.1.tgz
+717 http GET https://registry.npmjs.org/qs/-/qs-2.4.2.tgz
+718 http 200 https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.5.0.tgz
+719 http 200 https://registry.npmjs.org/stringstream/-/stringstream-0.0.4.tgz
+720 http 200 https://registry.npmjs.org/hawk/-/hawk-2.3.1.tgz
+721 http 200 https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
+722 http 200 https://registry.npmjs.org/caseless/-/caseless-0.9.0.tgz
+723 http 200 https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.6.0.tgz
+724 http 200 https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz
+725 http 200 https://registry.npmjs.org/combined-stream/-/combined-stream-0.0.7.tgz
+726 silly shasum updated bytes 5049
+727 silly shasum updated bytes 2030
+728 http 200 https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.0.tgz
+729 http 200 https://registry.npmjs.org/form-data/-/form-data-0.2.0.tgz
+730 info shasum c57103f7a17fc037f02d7c2e64b602ea223f7d63
+730 info shasum /root/tmp/npm-9279/1431247689631-0.42837768280878663/tmp.tgz
+731 verbose tar unpack /root/tmp/npm-9279/1431247689631-0.42837768280878663/tmp.tgz
+732 silly lockFile 45759340-9631-0-42837768280878663-package /root/tmp/npm-9279/1431247689631-0.42837768280878663/package
+733 verbose lock /root/tmp/npm-9279/1431247689631-0.42837768280878663/package /root/.npm/45759340-9631-0-42837768280878663-package.lock
+734 silly lockFile 2ce72e6e-9631-0-42837768280878663-tmp-tgz /root/tmp/npm-9279/1431247689631-0.42837768280878663/tmp.tgz
+735 verbose lock /root/tmp/npm-9279/1431247689631-0.42837768280878663/tmp.tgz /root/.npm/2ce72e6e-9631-0-42837768280878663-tmp-tgz.lock
+736 info shasum 0f0e3423f942960b5692ac324a57dd093bc41a92
+736 info shasum /root/tmp/npm-9279/1431247689639-0.8037694105878472/tmp.tgz
+737 verbose tar unpack /root/tmp/npm-9279/1431247689639-0.8037694105878472/tmp.tgz
+738 silly lockFile cefb898b-89639-0-8037694105878472-package /root/tmp/npm-9279/1431247689639-0.8037694105878472/package
+739 verbose lock /root/tmp/npm-9279/1431247689639-0.8037694105878472/package /root/.npm/cefb898b-89639-0-8037694105878472-package.lock
+740 silly lockFile 9e037ab2-89639-0-8037694105878472-tmp-tgz /root/tmp/npm-9279/1431247689639-0.8037694105878472/tmp.tgz
+741 verbose lock /root/tmp/npm-9279/1431247689639-0.8037694105878472/tmp.tgz /root/.npm/9e037ab2-89639-0-8037694105878472-tmp-tgz.lock
+742 silly shasum updated bytes 9226
+743 silly shasum updated bytes 1799
+744 http 200 https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.4.0.tgz
+745 http 200 https://registry.npmjs.org/mime-types/-/mime-types-2.0.11.tgz
+746 http 200 https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.3.tgz
+747 error Error: No compatible version found: har-validator@'^1.4.0'
+747 error Valid install targets:
+747 error ["1.0.0","1.0.1","1.0.2","1.1.0","1.1.1","1.1.2","1.1.3","1.2.0","1.3.0","1.3.1","1.4.0","1.5.0","1.5.1","1.6.0","1.6.1","1.7.0"]
+747 error     at installTargetsError (/home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules/npm/lib/cache.js:685:10)
+747 error     at /home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules/npm/lib/cache.js:607:10
+747 error     at saved (/home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+747 error     at Object.oncomplete (fs.js:107:15)
+748 error If you need help, you may report this log at:
+748 error     <http://github.com/isaacs/npm/issues>
+748 error or email it to:
+748 error     <npm-@googlegroups.com>
+749 error System Linux 3.10.25+
+750 error command "/home/pi/node-v0.10.2-linux-arm-pi/bin/node" "/home/pi/node-v0.10.2-linux-arm-pi/bin/npm" "install" "-g" "request"
+751 error cwd /home/pi/node-v0.10.2-linux-arm-pi
+752 error node -v v0.10.2
+753 error npm -v 1.2.15
+754 verbose exit [ 1, true ]
