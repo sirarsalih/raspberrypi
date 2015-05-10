@@ -38,7 +38,7 @@ requestDataAndTweetFor(angularJsOslo);
 function requestDataAndTweetFor(userGroup) {
     request(userGroup, function(error, response, body){
         var json = JSON.parse(body);
-        if (!error && response.statusCode == 200 && json.results.length > 0) {
+        if (!error && response.statusCode == 200) {
             for(var i = 0; i < json.results.length; i++) {
                 var dateCreated = new Date(parseInt(json.results[i].created));
                 var date = new Date(parseInt(json.results[i].time));
@@ -49,7 +49,7 @@ function requestDataAndTweetFor(userGroup) {
 
                 if(getDaysInBetween(new Date(), dateCreated) == -1) {
                     tweet(message);
-                    return;
+                    continue;
                 }
 
                 switch(getDaysInBetween(new Date(), date)){
