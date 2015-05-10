@@ -20,6 +20,14 @@ To edit cron scheduled jobs:
 
 <code>crontab -e</code>
 
+Backup script found out at:
+
+<code>/home/pi/</code>
+
+Node server script found at:
+
+<code>/home/pi/</code>
+
 Node modules found at:
 
 <code>/home/pi/node-v0.10.2-linux-arm-pi/lib/</code>
@@ -30,6 +38,8 @@ To execute node globally, make sure to set the paths first:
 <br/>
 <code>PATH=$PATH:$NODE_JS_HOME/bin</code>
 
+Twitter bot scripts found at:
 
+<code>/home/pi/twitter/</code>
 
 
