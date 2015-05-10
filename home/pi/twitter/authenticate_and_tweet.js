@@ -26,24 +26,35 @@ request(latestNNUGEvent, function(error, response, body){
         var dateCreated = new Date(parseInt(json.results[0].created));
         var date = new Date(parseInt(json.results[0].time));
         var name = json.results[0].name;
+        var eventUrl = json.results[0].event_url;
+        var message = buildMessage(name, date, eventUrl);
 
         if(getDaysInBetween(new Date(), dateCreated) == -1) {
-            tweet(name);
+            tweet(message);
             return;
         }
 
         switch(getDaysInBetween(new Date(), date)){
             case 7:
-                tweet(name);
+                tweet(message);
                 break;
             case 1:
-                tweet(name);
+                tweet(message);
                 break;
             default:
                 break;
         }
     }
 });
+
+function buildMessage(name, date, eventUrl) {
+    var hashTags = "#NNUGOslo";
+    var message = name + " " + date.getDate() + "/" + (date.getMonth()+1) + ", RSVP today! " + hashTags + " " + eventUrl;
+    if(message.length > 140) {
+        return message.replace(name + " ", "");
+    }
+    return message;
+}
 
 function getDaysInBetween(date1, date2) {
     var one_day_ms = 1000*60*60*24;
