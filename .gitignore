@@ -20,3 +20,4 @@ selinux
 sys
 usr
 sed*
+fake-hwclock.data
