@@ -49,19 +49,19 @@ function requestDataAndTweetFor(userGroup) {
                 var groupUrlName = json.results[i].group.urlname;
                 var message = buildMessage(name, date, eventUrl, groupUrlName);
 
-                if(getDaysInBetween(new Date(), dateCreated) == -1) {
+                if(getDaysInBetween(new Date(), dateCreated) == -1) {                
                     tweet(message);
                     continue;
                 }
 
                 switch(getDaysInBetween(new Date(), date)){
                     case 7:
+                        message = buildMessage(name, "1 week left", eventUrl, groupUrlName);
                         tweet(message);
                         break;
                     case 1:
+                        message = buildMessage(name, "tomorrow", eventUrl, groupUrlName);
                         tweet(message);
-                        break;
-                    default:
                         break;
                 }
             }
@@ -70,12 +70,17 @@ function requestDataAndTweetFor(userGroup) {
 }
 
 function buildMessage(name, date, eventUrl, groupUrlName) {
+    var eventDate = isTypeOfDate(date) ? date.getDate() + "/" + (date.getMonth()+1) : date;    
     var hashTags = "#"+groupUrlName.replace("-", "");
-    var message = name + " " + date.getDate() + "/" + (date.getMonth()+1) + ", RSVP today! " + hashTags + " " + eventUrl;
+    var message = name + " " + eventDate + ", RSVP today! " + hashTags + " " + eventUrl;
     if(message.length > 140) {
         return message.replace(name + " ", "");
     }
     return message;
+}
+
+function isTypeOfDate(date) {
+    return Object.prototype.toString.call(date) === '[object Date]';
 }
 
 function getDaysInBetween(date1, date2) {
