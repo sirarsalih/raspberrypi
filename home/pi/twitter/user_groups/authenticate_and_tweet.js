@@ -27,15 +27,15 @@ var nnugHaugesund = "https://api.meetup.com/2/events?offset=0&format=json&limite
 var angularJsOslo = "https://api.meetup.com/2/events?offset=0&format=json&limited_events=False&group_urlname=AngularJS-Oslo&photo-host=public&page=20&fields=&order=time&desc=false&status=upcoming&sig_id=35617582&sig=600abdd8ed991dce67bb02437b7169bbcb8fb650";
 var geekBeerOslo = "https://api.meetup.com/2/events?offset=0&format=json&limited_events=False&group_urlname=GeekBeer&photo-host=public&page=20&fields=&order=time&desc=false&status=upcoming&sig_id=35617582&sig=54d7f0f3820ecff16be447a3e3e3f55d5e722114";
 
-requestDataAndTweetFor(nnugOslo);
-requestDataAndTweetFor(nnugBergen);
-requestDataAndTweetFor(nnugStavanger);
-requestDataAndTweetFor(nnugTrondheim);
-requestDataAndTweetFor(nnugKristiansand);
-requestDataAndTweetFor(nnugVestfold);
-requestDataAndTweetFor(nnugHaugesund);
-requestDataAndTweetFor(angularJsOslo);
-requestDataAndTweetFor(geekBeerOslo);
+//requestDataAndTweetFor(nnugOslo);
+//requestDataAndTweetFor(nnugBergen);
+//requestDataAndTweetFor(nnugStavanger);
+//requestDataAndTweetFor(nnugTrondheim);
+//requestDataAndTweetFor(nnugKristiansand);
+//requestDataAndTweetFor(nnugVestfold);
+//requestDataAndTweetFor(nnugHaugesund);
+//requestDataAndTweetFor(angularJsOslo);
+//requestDataAndTweetFor(geekBeerOslo);
 
 function requestDataAndTweetFor(userGroup) {
     request(userGroup, function(error, response, body){
